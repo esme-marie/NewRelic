@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import React from "react";
 import ThreeStars from '../components/ThreeStars';
 
@@ -18,12 +18,6 @@ export default class MessageSubmitted extends React.Component {
                             <p>Your message is on its way to the aliens!</p>
                             <p>In the meantime, click the button below to discover inspirational quotes from great people to inspire you 🚀✨</p>
                             <div className="container-submit">
-                            <Link to="/MessageQuotes">
-                                <button className="submittedButton"
-                                type="submit">
-                                Discover Quotes
-                                </button>
-                            </Link>
                             </div>
                     </div>
             </div>
@@ -31,4 +25,3 @@ export default class MessageSubmitted extends React.Component {
     }
 }
 
-// export default MessageSubmitted;

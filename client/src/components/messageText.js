@@ -30,13 +30,6 @@ class MessageText extends Component {
                 author: randomQuote["author"]
             })
         })
-        // fetch("https://type.fit/api/quotes")
-        // .then(function(response) {
-        //     return response.json();
-        // })
-        // .then(function(data) {
-        //     console.log(data);
-        // });
     }
 
     getNewQuote = () => {
