@@ -10,10 +10,14 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "cd client/ && npm install && npm run build",
     "start": "nodemon ./bin/www",
     "migrate": "node model/database.js"
   },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
   "dependencies": {
     "axios": "^0.21.1",
     "cookie-parser": "~1.4.4",
