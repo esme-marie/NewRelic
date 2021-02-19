@@ -2,6 +2,10 @@
   "homepage": "https://belle1306.github.io/infinity/",
   "name": "infinity",
   "version": "0.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
