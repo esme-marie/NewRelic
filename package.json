@@ -8,12 +8,8 @@
   },
   "private": true,
   "scripts": {
-    "client": "cd client && yarn start",
-    "server": "nodemon ./bin/www",
-    "build": "cd client/ && npm run build",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "start": "nodemon ./bin/www",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "migrate": "node model/database.js"
   },
   "cacheDirectories": [
