@@ -19,8 +19,8 @@ URI | HTTP Method | Description
 
 - Run `npm install` in project directory. This will install server-related dependencies such as express.
 - `cd client` and run `yarn install`. This will install client dependencies React App.
-- You can test your client app on `http://localhost:3000`
-- You can test your API in `http://localhost:5000/`
+- You can test your client app on `http://localhost:3000` by running `yarn start`.
+- You can test your API in `http://localhost:5000/` by running `npm start`.
 
 ### Database Prep
 
