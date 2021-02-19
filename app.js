@@ -16,7 +16,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'client/build', 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -45,7 +45,7 @@ app.use(function(err, req, res, next) {
 
 // All remaining requests return the React app, so it can handle routing.
 app.get("*", (req, res) => {
-  let url = path.join(__dirname, 'client/build', 'index.html');
+  let url = path.join(__dirname, 'client/build', 'public');
   if (!url.startsWith('/app/')) // we're on local windows
   url = url.substring(1);
   res.sendFile(url);
