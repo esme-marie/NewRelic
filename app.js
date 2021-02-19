@@ -7,8 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+var cors = require('cors')
+
 var app = express();
 
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -41,11 +44,8 @@ app.get('/api', function (req, res) {
 });
 
 // All remaining requests return the React app, so it can handle routing.
-app.get("*", (req, res) => {
-  let url = path.join(__dirname, 'client/build', 'index.html');
-  if (!url.startsWith('/app/')) // we're on local windows
-  url = url.substring(1);
-  res.sendFile(url);
+app.get('*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 // app.listen(process.env.PORT);
