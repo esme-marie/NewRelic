@@ -13,7 +13,7 @@ import GetLeaderBoard from './components/getleaderboard';
 class Routes extends Component {
     render () {
         return (
-            <Switch basename={process.env.PUBLIC_URL}>
+            <Switch>
                 <Route path="/apod" component={APOD} />
                 <Route path="/message" component={MessageForm} />
                 <Route path="/solarscope" component={solarscope} />
