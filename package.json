@@ -9,8 +9,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch",
+    "build": "cd client && npm install && npm run build",
     "migrate": "node model/database.js"
   },
   "cacheDirectories": [
