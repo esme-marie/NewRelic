@@ -9,13 +9,17 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "heroku-postbuild": "cd client && npm install && npm run build",
+    "build": "cd client && npm install && npm run build",
     "migrate": "node model/database.js"
   },
   "cacheDirectories": [
     "node_modules",
     "client/node_modules"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/newrelicvictress.git"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "cookie-parser": "~1.4.4",
