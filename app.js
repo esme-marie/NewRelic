@@ -45,7 +45,7 @@ app.use(function(err, req, res, next) {
 
 // All remaining requests return the React app, so it can handle routing.
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build/index.html'));
+  res.sendFile(path.join(__dirname, 'client/public/index.html'));
 });
 
 // app.listen(process.env.PORT);
