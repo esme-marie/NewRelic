@@ -11,6 +11,7 @@
     "axios-react": "^2.0.2",
     "leaflet": "^1.7.1",
     "lerp": "^1.0.3",
+    "newrelic": "^7.1.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
