@@ -7,6 +7,7 @@ import solarscope from './components/solarscope';
 import QuizForm from './components/quiz';
 import MessageQuotes from './components/messageQuotes';
 import GetLeaderBoard from './components/getleaderboard';
+import Globalforestwatch from './components/Globalforestwatch';
 
 
 
@@ -16,7 +17,8 @@ class Routes extends Component {
             <Switch>
                 <Route path="/apod" component={APOD} />
                 <Route path="/message" component={MessageForm} />
-                <Route path="/solarscope" component={solarscope} />
+                <Route path="/Globalforestwatch" component={Globalforestwatch} />
+                {/* <Route path="/solarscope" component={solarscope} /> */}
                 <Route path="/quiz" component={QuizForm} />
                 <Route path="/messageQuotes" component={MessageQuotes} />
                 {/* <Route path="/" component={Home} /> */}
