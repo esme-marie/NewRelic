@@ -18,7 +18,7 @@ URI | HTTP Method | Description
 ### Dependencies
 
 - Run `npm install` in project directory. This will install server-related dependencies such as express.
-- `cd client` and run `yarn install`. This will install client dependencies React App.
+- `cd client` and run `npm install`, `npm install newrelic --save`. This will install client dependencies React App.
 - You can test your client app on `http://localhost:3000`
 - You can test your API in `http://localhost:5000/`
 
