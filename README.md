@@ -49,7 +49,7 @@ Run `npm run migrate` in the main folder of this repository, in a new terminal w
 
 ## Submission
 
-By Victress Malaysians
+By Victress Malaysians 👩🏻‍💻
 
 ## What we built
 
