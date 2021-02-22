@@ -1,30 +1,91 @@
 {
     "venues": [
         {
-            "description": "Orangutan",
-            "status": "Critically Endangered",
-            "link":"https://www.worldwildlife.org/species/orangutan",
+            "description": "WWF",
+            "link":"https://www.worldwildlife.org/initiatives/forests",
             "geometry": [
                 3.139003,
                 101.686852
             ]
         },
         {
-            "description": "Hector’s dolphins",
-            "status": "Endangered",
-            "link":"https://www.worldwildlife.org/species/hector-s-dolphin",
+            "description": "Endangered Species Foundation",
+            "link":"https://www.endangeredspecies.org.nz/act-now",
             "geometry": [
-                -37.6859006,
-                176.167505
+                -37.800400,
+                174.870000
             ]
         },
         {
             "description": "Amur leopard",
-            "status": "Critically Endangered",
-            "link":"https://www.worldwildlife.org/species/amur-leopard",
+            "link":"",
             "geometry": [
                 51.430392,
                 133.649016
+            ]
+        },
+        {
+            "description": "Jane Goodall Institude",
+            "link":"https://secure2.convio.net/jgi/site/Donation2;jsessionid=00000000.app20112a?idb=1136715204&DONATION_LEVEL_ID_SELECTED=1&df_id=2522&mfc_pref=T&2522.donation=form1&NONCE_TOKEN=DF207DDD1FE0E92C7ED10A6D38A7E514&idb=0",
+            "geometry": [
+                -4.038333,
+                21.758663
+            ]
+        },
+        {
+            "description": "African Wildlife Foundation",
+            "link":"https://secure.awf.org/",
+            "geometry": [
+                -1.292066,
+                36.821945
+            ]
+        },
+        {
+            "description": "Animal Welfare Institute",
+            "link":"https://awionline.org/content/what-you-can-do-wildlife",
+            "geometry": [
+                38.883940,
+                -76.993560
+            ]
+        },
+        {
+            "description": "Snow Leopard Trust",
+            "link":"https://snowleopard.org/the-threats/",
+            "geometry": [
+                41.204380,
+                74.766098
+            ]
+        },
+        {
+            "description": "Dian Fossey Gorilla Fund",
+            "link":"https://gorillafund.org/what-we-do/daily-protection-3/",
+            "geometry": [
+                -1.940278,
+                29.873888
+            ]
+        },
+        {
+            "description": "Friends of Animals",
+            "link":"https://friendsofanimals.org/wildlife-law-program/",
+            "geometry": [
+                41.079460,
+                -73.468210
+            ]
+        },
+        {
+            "description": "Australian Wildlife Conservancy",
+            "link":"https://www.australianwildlife.org/our-work/fire-management-program/",
+            "geometry": [
+                -25.274399,
+                133.775131
+            ]
+        },
+        {
+            "description": "Pollinator Partnership",
+            "link":"https://www.pollinator.org/about",
+            "geometry": [
+                23.634501,
+                -102.552788
             ]
         }
     ]
