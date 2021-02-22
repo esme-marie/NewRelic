@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 import { Route, Switch} from 'react-router-dom'; //deleted withRouter, BrowserRouter,
 import MessageForm from './components/messageForm';
 import ThreeHome from './components/Three';
-import APOD from './components/apod';
+// import APOD from './components/apod';
 import solarscope from './components/solarscope';
 import QuizForm from './components/quiz';
 import MessageQuotes from './components/messageQuotes';
 import GetLeaderBoard from './components/getleaderboard';
+import LeafMap from './components/Map/MyMap'
 
 
 
@@ -14,7 +15,8 @@ class Routes extends Component {
     render () {
         return (
             <Switch>
-                <Route path="/apod" component={APOD} />
+                {/* <Route path="/apod" component={APOD} /> */}
+                <Route path="/apod" component={LeafMap} />
                 <Route path="/message" component={MessageForm} />
                 <Route path="/solarscope" component={solarscope} />
                 <Route path="/quiz" component={QuizForm} />
