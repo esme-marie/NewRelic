@@ -53,4 +53,4 @@ By Victress Malaysians
 
 ## What we built
 
-[Placeholder App] is built  for global users who have access to the internet. Users have varying awareness levels about deforestation and illegal logging. The product is a platform. THAT Unlike traditional donation and volunteering pages. Our product creates awareness that translates to actionable user actions to help Mother Earth
+[Placeholder App] is built  for global users who have access to the internet. Users have varying awareness levels about deforestation and illegal logging. The product is a platform. THAT Unlike traditional donation and volunteering pages. Our product creates awareness that translates to actionable user actions to help Mother Earth.
