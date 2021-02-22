@@ -7,13 +7,24 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+// var cors = require('cors')
+
 var app = express();
 
+// app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "client/build")));
+}
+// app.use(routes);
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+// app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -33,6 +44,17 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.send('error');
 });
+
+// Answer API requests.
+// app.get('/api', function (req, res) {
+//   res.set('Content-Type', 'application/json');
+//   res.send('{"message":"Hello from the custom server!"}');
+// });
+
+// All remaining requests return the React app, so it can handle routing.
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'client/public/index.html'));
+// });
 
 // app.listen(process.env.PORT);
 // let port = process.env.PORT;
