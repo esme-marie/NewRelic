@@ -183,6 +183,7 @@ export default class ThreeHome extends Component {
                 <a href='/Quiz' className="top-right" children="Astronomical Quiz" />
                 <a href="/message" className="bottom-right" children="Message Aliens" />
                 <a href="/apod" className="bottom-left" children="Astronomical Birthday" />
+                <a href="/map" className="bottom-center" children="Leaflet Map" />
               </header>
               </div>
           </div>
