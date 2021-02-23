@@ -1,6 +1,5 @@
 import React from "react";
 // import Quiz from "../components/quiz";
-// import Globalforestwatch from '../components/Globalforestwatch';
 import {Link} from "react-router-dom";
 
 class QuizForm extends React.Component {
