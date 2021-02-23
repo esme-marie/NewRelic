@@ -600,3 +600,8 @@ h6 {
   height: 100vh;
   width: 75vw;
 }
+
+.instaLinks {
+  font-family: sans-serif;
+  text-align: center;
+}
