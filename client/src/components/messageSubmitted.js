@@ -1,6 +1,7 @@
 // import {Link} from "react-router-dom";
 import React from "react";
 import ThreeStars from '../components/ThreeStars';
+import InstagramEmbed from 'react-instagram-embed';
 
 
 
@@ -20,6 +21,19 @@ export default class MessageSubmitted extends React.Component {
                             <div className="container-submit">
                             </div>
                     </div>
+                    <InstagramEmbed
+  clientAccessToken='NewRelic|260666962287072'
+  url='https://instagr.am/p/Zn1Xz/'
+  maxWidth={375}
+  hideCaption={false}
+  containerTagName='div'
+  injectScript
+  protocol=''
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}
+/>
             </div>
         )
     }
