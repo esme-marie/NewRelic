@@ -7,7 +7,7 @@ import QuizForm from './components/quiz';
 // import MessageQuotes from './components/messageQuotes';
 import GetLeaderBoard from './components/getleaderboard';
 import Globalforestwatch from './components/Globalforestwatch';
-import LeafMap from './components/Map/MyMap';
+import LeafMap from './components/MyMap';
 import InstaLinks from './components/instaLinks';
 
 
