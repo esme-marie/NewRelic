@@ -1,5 +1,14 @@
 {
-    "venues": [        
+    "venues": [
+        {
+            "description": "WWF orangutan",
+            "link":"https://www.worldwildlife.org/initiatives/forests",
+            
+            "geometry": [
+                3.139003,
+                101.686852
+            ]
+        },
         {
             "description": "Endangered Species Foundation",
             "link":"https://www.endangeredspecies.org.nz/act-now",
@@ -7,6 +16,14 @@
             "geometry": [
                 -37.800400,
                 174.870000
+            ]
+        },
+        {
+            "description": "Amur leopard",
+            "link":"",
+            "geometry": [
+                51.430392,
+                133.649016
             ]
         },
         {
@@ -52,6 +69,30 @@
             "geometry": [
                 -1.940278,
                 29.873888
+            ]
+        },
+        {
+            "description": "Friends of Animals",
+            "link":"https://friendsofanimals.org/wildlife-law-program/",
+            "geometry": [
+                41.079460,
+                -73.468210
+            ]
+        },
+        {
+            "description": "Australian Wildlife Conservancy",
+            "link":"https://www.australianwildlife.org/our-work/fire-management-program/",
+            "geometry": [
+                -25.274399,
+                133.775131
+            ]
+        },
+        {
+            "description": "Pollinator Partnership",
+            "link":"https://www.pollinator.org/about",
+            "geometry": [
+                23.634501,
+                -102.552788
             ]
         }
     ]

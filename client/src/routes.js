@@ -3,15 +3,12 @@ import { Route, Switch} from 'react-router-dom'; //deleted withRouter, BrowserRo
 import MessageForm from './components/messageForm';
 import ThreeHome from './components/Three';
 import APOD from './components/apod';
-import solarscope from './components/solarscope';
+// import solarscope from './components/solarscope';
 import QuizForm from './components/quiz';
 import MessageQuotes from './components/messageQuotes';
 import GetLeaderBoard from './components/getleaderboard';
 import Globalforestwatch from './components/Globalforestwatch';
-import LeafMap from './components/Map/MyMap'
-
-
-
+import LeafMap from './components/MyMap'
 
 class Routes extends Component {
     render () {

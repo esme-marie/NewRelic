@@ -23,7 +23,7 @@ function Globalforestwatch() {
     <div className="stars">
       {/* <h1>Lets start exploring</h1> */}
       {/* <Iframe iframe={demos["solar"]} allow="autoplay" />, */}
-      <h3></h3>
+      {/* <h3></h3> */}
       
       <Iframe iframe={demos["forest"]} allow="autoplay" />,
       <h6>* Credit to Global Forest Watch</h6>
