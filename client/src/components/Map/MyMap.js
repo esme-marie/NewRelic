@@ -10,10 +10,11 @@ class MyMap extends React.Component {
         super(props);
     }
     render() {
-        const currentLocation = { lat: 3.139003, lng: 101.686852 };
+        const currentLocation = { lat: 18.979026, lng: 17.156246 };
         const zoom = 1.5;
         return (
             <div className="col">
+                <a className="btn btn-dark btn-md text-light" href="/">BACK</a>
                 <MapContainer center={currentLocation} zoom={zoom}>
                     <TileLayer
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -21,6 +22,7 @@ class MyMap extends React.Component {
                     />
                     <Markers venues={data.venues} />
                 </MapContainer>
+                
             </div>
         )
     }

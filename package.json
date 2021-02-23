@@ -1,6 +1,6 @@
 {
-  "homepage": "https://newrelicvictress.herokuapp.com/",
-  "name": "infinity",
+  "homepage": "https://victressnewrelic.herokuapp.com/",
+  "name": "victress",
   "version": "0.0.0",
   "engines": {
     "node": "14.x",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/newrelicvictress.git"
+    "url": "https://git.heroku.com/victressnewrelic.git"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -31,6 +31,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
+    "newrelic": "^7.1.1",
     "nodemon": "^2.0.7",
     "react-datepicker": "^3.4.1",
     "react-leaflet": "^3.1.0"
