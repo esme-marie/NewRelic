@@ -24,7 +24,7 @@ class InstaLinks extends React.Component {
                 onFailure={() => {}}
               />
             <Card.Body>
-              Test
+              Testing CSS
             </Card.Body>
           </Card>
             
