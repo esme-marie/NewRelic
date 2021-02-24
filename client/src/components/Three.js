@@ -196,14 +196,10 @@ export default class ThreeHome extends Component {
         const intersects = raycaster.intersectObjects( scene.children );
       
         for(let i = 0; i < intersects.length; i ++ ) {
-      
           intersects[i].object.material.color.set( 0xff0000 );
-          alert('hi');
-          window.open('/map');
+          window.location.href = '/map';
         }
-      
         renderer.render( scene, camera );
-      
       }
 
       // function onDocumentMouseDown(event) {
