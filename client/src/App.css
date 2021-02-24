@@ -608,3 +608,12 @@ h6 {
   font-family: sans-serif;
   text-align: center;
 }
+
+.map-popup-button {
+  padding: 0;
+  border: none;
+  background: none;
+  color: salmon;
+  text-decoration: underline;
+  font-size: large;
+}

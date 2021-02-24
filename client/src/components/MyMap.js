@@ -30,7 +30,13 @@ const MyMap = ()=>{
                 icon={GetIcon(venue.animal)}
                 > 
                 <Popup>
-                    <a className='poup-text' href={venue.link}>{venue.description}</a>
+                    <form action={venue.link}>
+                        <button className="map-popup-button" type="submit" formtarget="_blank">{venue.description}</button>
+                    </form>
+                        {/* <button href={venue.link}>
+                            {venue.description}
+                        </button> */}
+                    {/* <a className='poup-text' href={venue.link}>{venue.description}</a> */}
                 </Popup>
                 </Marker>
             ))}
