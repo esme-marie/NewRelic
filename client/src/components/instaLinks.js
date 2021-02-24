@@ -9,8 +9,26 @@ class InstaLinks extends React.Component {
     return (
        
         <CardColumns>
+          <Card style={{ width: 300 }}>
+              <InstagramEmbed
+                url="https://www.instagram.com/p/CKwLtKjscKh/?utm_source=ig_web_copy_link"
+                clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                Width={300}
+                hideCaption={true}
+                containerTagName="div"
+                protocol=""
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            <Card.Body>
+              Test
+            </Card.Body>
+          </Card>
             
-          <Card>
+          {/* <Card style={{ width: '18rem' }}>
             <InstagramEmbed
               url="https://www.instagram.com/p/CKwLtKjscKh/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -25,7 +43,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
             <InstagramEmbed
               url="https://www.instagram.com/p/CLmM46-FN9L/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -40,7 +58,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/CEvno6eJ8hJ/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -55,7 +73,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/BvyM3vGpPsb/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -70,7 +88,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/CInNr-mJ3P1/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -85,7 +103,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/CIzjMXGJQ6r/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -100,7 +118,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url=" https://www.instagram.com/p/CHMwOUBJRg7/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -115,7 +133,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/CKWLZS_JM6-/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -130,7 +148,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/B5-WR66pKVN/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -145,7 +163,7 @@ class InstaLinks extends React.Component {
               onFailure={() => {}}
             />
           </Card>
-          <Card>
+          <Card style={{ width: '18rem' }}>
           <InstagramEmbed
               url="https://www.instagram.com/p/B-ZPdvzJj0K/?utm_source=ig_web_copy_link"
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
@@ -159,9 +177,9 @@ class InstaLinks extends React.Component {
               onAfterRender={() => {}}
               onFailure={() => {}}
             />
-          </Card>
+          </Card> */}
 
-        </CardColumns>
+      </CardColumns>
       
     )
   }
