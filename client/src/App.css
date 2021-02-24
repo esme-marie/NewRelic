@@ -617,3 +617,7 @@ h6 {
   text-decoration: underline;
   font-size: large;
 }
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  border-radius: 50%;
+}

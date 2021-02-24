@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 import data from '../assets/data.json';
 import 'leaflet/dist/leaflet.css';
 import "../App.css";
+import Image from 'react-bootstrap/Image';
 
 function GetIcon(animal) {
     return L.icon({
@@ -23,11 +24,11 @@ const MyMap = ()=>{
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
             />
-            { data.venues.map((venue, index) => (
-                <Marker 
-                key={index} 
-                position={venue.geometry} 
-                icon={GetIcon(venue.animal)}
+            { data.venues.map((venue, index) => (                
+                <Marker                     
+                    key={index} 
+                    position={venue.geometry} 
+                    icon={GetIcon(venue.animal)}
                 > 
                 <Popup>
                     <form action={venue.link}>
