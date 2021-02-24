@@ -36,7 +36,7 @@ export default class ThreeHome extends Component {
       // make a THREE.js loader
       const loader = new THREE.TextureLoader()
       loader.load(
-          "earth.jpg",
+          "eae.png",
           this.onLoad,
           this.onProgress,
           this.onError
@@ -44,7 +44,7 @@ export default class ThreeHome extends Component {
 
       // make planet 
       const makePlanet = function () {
-      const texture = loader.load("earth.jpg")
+      const texture = loader.load("eae.png");
       const geometry = new THREE.SphereGeometry(600, 128, 128)
       const material = new THREE.MeshLambertMaterial({
           map: texture
@@ -121,7 +121,7 @@ export default class ThreeHome extends Component {
           
           camera.lookAt(scene.position)
           
-          earth.rotateY(0.011)
+          earth.rotateY(0.005)
           //   line.rotateY(0.01)
           
           // stars2.geometry.rotateX(0.004)
@@ -139,6 +139,10 @@ export default class ThreeHome extends Component {
       renderer.setSize(window.innerWidth, window.innerHeight)
       renderer.render( scene, camera );
       })
+
+      let raycaster = new THREE.Raycaster();
+      let mouse = new THREE.Vector2();
+      
       
       let isMouseDown = false
       let startX = 0
@@ -169,6 +173,52 @@ export default class ThreeHome extends Component {
       aimX = ((window.innerWidth / 2) - event.pageX) * 4
       aimY = ((window.innerHeight / 2) - event.pageY) * 4
       });
+
+      // document.body.addEventListener('click', () => {
+      //   animate();
+      // })
+      function onMouseMove( event ) {
+
+        // calculate mouse position in normalized device coordinates
+        // (-1 to +1) for both components
+      
+        mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+        mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+      
+      // }
+      
+      // function render() {
+      
+        // update the picking ray with the camera and mouse position
+        raycaster.setFromCamera( mouse, camera );
+      
+        // calculate objects intersecting the picking ray
+        const intersects = raycaster.intersectObjects( scene.children );
+      
+        for(let i = 0; i < intersects.length; i ++ ) {
+      
+          intersects[i].object.material.color.set( 0xff0000 );
+          alert('hi');
+          window.open('/map');
+        }
+      
+        renderer.render( scene, camera );
+      
+      }
+
+      // function onDocumentMouseDown(event) {
+       
+      // }
+      window.addEventListener( 'click', onMouseMove, false )
+      // earth.addEventListener('mousedown', onDocumentMouseDown, false);
+      // window.addEventListener( 'click', onMouseMove, true);
+      
+      // window.requestAnimationFrame(render);
+      // document.body.addEventListener('click', function(event){
+
+      // })
+
+
 }
   
   render() {
