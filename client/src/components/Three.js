@@ -19,7 +19,7 @@ function ThreeHome() {
     <div className="App">
       <ReactGlobe
         height="100vh"
-        globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
+        // globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
         markers={markers}
         width="100vw"
         options={options}
@@ -27,7 +27,7 @@ function ThreeHome() {
       />
        <div>
           <h3>[team name]</h3>
-          <div ref ={ref => (this.mount = ref)}></div>
+          {/* <div ref ={ref => (this.mount = ref)}></div> */}
           <header>
             <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
             <a href='/Quiz' className="top-right" children="Quiz" />
