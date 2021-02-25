@@ -117,7 +117,6 @@ span.header-left {
   width: 200px;
 }
 .btn-md {
-  bottom: 20px;
   left: 30px;
   color: white;
 }
@@ -608,4 +607,17 @@ h6 {
 .instaLinks {
   font-family: sans-serif;
   text-align: center;
+}
+
+.map-popup-button {
+  padding: 0;
+  border: none;
+  background: none;
+  color: salmon;
+  text-decoration: underline;
+  font-size: large;
+}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  border-radius: 50%;
 }
