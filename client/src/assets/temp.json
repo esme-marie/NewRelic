@@ -1,9 +1,18 @@
 {
     "venues": [
         {
+            "description": "Endangered Species Foundation",
+            "link":"https://www.endangeredspecies.org.nz/act-now",
+            "animal":"HectorDolphin",
+            "geometry": [
+                -37.800400,
+                174.870000
+            ]
+        },
+        {
             "description": "WWF orangutan",
             "link":"https://www.worldwildlife.org/initiatives/forests",
-            
+            Orangutan
             "geometry": [
                 3.139003,
                 101.686852
@@ -16,14 +25,6 @@
             "geometry": [
                 -37.800400,
                 174.870000
-            ]
-        },
-        {
-            "description": "Amur leopard",
-            "link":"",
-            "geometry": [
-                51.430392,
-                133.649016
             ]
         },
         {
@@ -63,12 +64,12 @@
             ]
         },
         {
-            "description": "Dian Fossey Gorilla Fund",
-            "link":"https://gorillafund.org/what-we-do/daily-protection-3/",
-            "animal":"MountainGorilla",
+            "description": "",
+            "link":"",
+            "animal":"",
             "geometry": [
-                -1.940278,
-                29.873888
+                ,
+                
             ]
         },
         {
@@ -82,6 +83,7 @@
         {
             "description": "Australian Wildlife Conservancy",
             "link":"https://www.australianwildlife.org/our-work/fire-management-program/",
+            "animal":"BlackFlankedRockWallaby",
             "geometry": [
                 -25.274399,
                 133.775131
