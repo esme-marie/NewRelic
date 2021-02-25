@@ -1,7 +1,7 @@
 // import {Link} from "react-router-dom";
 import React from "react";
 import ThreeStars from '../components/ThreeStars';
-import InstagramEmbed from 'react-instagram-embed';
+import {Link} from "react-router-dom";
 
 
 
@@ -11,30 +11,31 @@ export default class MessageSubmitted extends React.Component {
             <div>
                 <ThreeStars />
                 <div id="particles">
+               
+                
                 </div>
                     <div id="messageSubmitted">
-                            <h2>⏁⊑⏃⋏☍ ⊬⍜⎍</h2>
-                            <h3>It means 'thank you' in alien language!</h3>
+                            <h2></h2>
+                            <h3>Thank you on behalf of the trees</h3>
                             <br/>
-                            <p>Your message is on its way to the aliens!</p>
-                            <p>In the meantime, click the button below to discover inspirational quotes from great people to inspire you 🚀✨</p>
+                            <p>Your message is on its way to Victrees!</p>
+                            <p>In the meantime, do find our other resources at our home page✨</p>
+                            
                             <div className="container-submit">
+                            
+                            </div>
+                            <div>
+                            <Link to="/">
+                                <button className="submittedButton" text-align="center"
+                                type="submit">
+                                Home
+                                </button>
+                            </Link>
                             </div>
                     </div>
-                    <InstagramEmbed
-  clientAccessToken='NewRelic|260666962287072'
-  url='https://instagr.am/p/Zn1Xz/'
-  maxWidth={375}
-  hideCaption={false}
-  containerTagName='div'
-  injectScript
-  protocol=''
-  onLoading={() => {}}
-  onSuccess={() => {}}
-  onAfterRender={() => {}}
-  onFailure={() => {}}
-/>
+                    
             </div>
+            
         )
     }
 }
