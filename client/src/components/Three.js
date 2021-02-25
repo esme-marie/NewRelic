@@ -25,17 +25,18 @@ function ThreeHome() {
         options={options}
         onMouseOverMarker={(marker, markerObject, event) => console.log(marker, markerObject, event)}
       />
-      <div>
-        <h3>[team name]</h3>
-        <header>
-          <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
-          <a href='/Quiz' className="top-right" children="Quiz" />
-          {/* <a href="/message" className="bottom-right" children="Message Aliens" /> */}
-          <a href="/instaLinks" className="bottom-right" children="Shop VicTrees" />
-          <a href="/apod" className="bottom-left" children="Astronomical Birthday" />
-          <a href="/map" className="bottom-center" children="Leaflet Map" />
-        </header>
-        </div>
+       <div>
+          <h3>[team name]</h3>
+          <div ref ={ref => (this.mount = ref)}></div>
+          <header>
+            <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
+            <a href='/Quiz' className="top-right" children="Quiz" />
+            <a href="/message" className="bottom-center" children="Send queries or nominate your organisation" />
+            <a href="/instaLinks" className="bottom-right" children="Follow Sustainable Insta" />
+            {/* <a href="/apod" className="bottom-left" children="Astronomical Birthday" /> */}
+            <a href="/map" className="bottom-left" children="Leaflet Map" />
+          </header>
+          </div>
     </div>
   );
 }
