@@ -109,6 +109,34 @@
             ]
         },
         {
+            "description": "SumatranElephant",
+            "link":"https://www.wcs.org/our-work/wildlife",
+            "animal":"SumatranElephant",            
+            "geometry": [
+                -1,
+                115
+            ]
+        },
+        {
+            "description": "Blue Whale",
+            "link":"https://www.marinemammalcenter.org/science-conservation/conservation/climate-change",
+            "animal":"BlueWhale",
+            "geometry": [
+                -35,
+                -75
+            ]
+        },
+
+        {
+            "description": "Bonobo",
+            "link":"https://www.janegoodall.org/uncategorized/habitat-restoration-climate-change/",
+            "animal":"Bonobo",
+            "geometry": [
+                -4.038333,
+                18
+            ]
+        },
+        {
             "description": "Cross River Gorilla",
             "link":"",
             "animal":"CrossRiverGorilla",
@@ -175,15 +203,7 @@
                 138
             ]
         },
-        {
-            "description": "SumatranElephant",
-            "link":"",
-            "animal":"SumatranElephant",            
-            "geometry": [
-                -1,
-                115
-            ]
-        },
+        
         {
             "description": "SundaTiger",
             "link":"",
@@ -222,25 +242,7 @@
             ]
         },
         
-        {
-            "description": "BlueWhale",
-            "link":"",
-            "animal":"BlueWhale",
-            "geometry": [
-                -35,
-                -75
-            ]
-        },
-
-        {
-            "description": "Jane Goodall Institude",
-            "link":"https://secure2.convio.net/jgi/site/Donation2;jsessionid=00000000.app20112a?idb=1136715204&DONATION_LEVEL_ID_SELECTED=1&df_id=2522&mfc_pref=T&2522.donation=form1&NONCE_TOKEN=DF207DDD1FE0E92C7ED10A6D38A7E514&idb=0",
-            "animal":"Bonobo",
-            "geometry": [
-                -4.038333,
-                18
-            ]
-        },
+        
         {
             "description": "GreenTurtle",
             "link":"https://awionline.org/content/what-you-can-do-wildlife",
