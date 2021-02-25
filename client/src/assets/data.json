@@ -20,7 +20,7 @@
         },
         {
             "description": "Black Rhino",
-            "link":"https://www.awf.org/land-protection/climate-change",
+            "link":"https://biglife.org/who-we-are/mission-vision",
             "animal":"BlackRhino",
             "geometry": [
                 12,
@@ -126,7 +126,6 @@
                 -75
             ]
         },
-
         {
             "description": "Bonobo",
             "link":"https://www.janegoodall.org/uncategorized/habitat-restoration-climate-change/",
@@ -134,6 +133,33 @@
             "geometry": [
                 -4.038333,
                 18
+            ]
+        },
+        {
+            "description": "Sunda Tiger",
+            "link":"https://awionline.org/content/endangered-species",
+            "animal":"SundaTiger",            
+            "geometry": [
+                9,
+                93
+            ]
+        },
+        {
+            "description": "Continental Tiger",
+            "link":"https://awionline.org/content/endangered-species",
+            "animal":"ContinentalTiger",            
+            "geometry": [
+                25,
+                93
+            ]
+        },
+        {
+            "description": "African Wild Dog",
+            "link":"https://www.awf.org/land-protection/climate-change",
+            "animal":"AfricanWildDog",
+            "geometry": [
+                -20,
+                25
             ]
         },
         {
@@ -204,34 +230,9 @@
             ]
         },
         
-        {
-            "description": "SundaTiger",
-            "link":"",
-            "animal":"SundaTiger",            
-            "geometry": [
-                9,
-                93
-            ]
-        },
-        {
-            "description": "ContinentalTiger",
-            "link":"",
-            "animal":"ContinentalTiger",            
-            "geometry": [
-                25,
-                93
-            ]
-        },
         
-        {
-            "description": "African Wild Dog",
-            "link":"",
-            "animal":"AfricanWildDog",
-            "geometry": [
-                -20,
-                25
-            ]
-        },
+        
+        
         {
             "description": "AsianElephant",
             "link":"",
@@ -244,7 +245,7 @@
         
         
         {
-            "description": "GreenTurtle",
+            "description": "Green Turtle",
             "link":"https://awionline.org/content/what-you-can-do-wildlife",
             "animal":"GreenTurtle",
             "geometry": [
