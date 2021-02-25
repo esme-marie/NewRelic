@@ -12,7 +12,9 @@ class InstaLinks extends React.Component {
             
           <Card>
             <InstagramEmbed
-              url="https://www.instagram.com/p/CKwLtKjscKh/?utm_source=ig_web_copy_link"
+              url="https://www.instagram.com/p/CLmM46-FN9L/?utm_source=ig_embed&amp;utm_campaign=loading"
+
+              
               clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
               Width={300}
               hideCaption={true}

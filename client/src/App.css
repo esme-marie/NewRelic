@@ -291,13 +291,13 @@ h4 {
 
 /* RIGHT COLUMN OF FORM */
 .form-inputs {
-  width: 100%;
+  width: 80%;
   /* border: 3px solid blue; */
 }
 
 .form-inputs1 {
-  width: 100%;
-  padding-left: 110px;
+  width: 80%;
+  padding-left: 300px;
 
   /* border: 3px solid blue; */
 }

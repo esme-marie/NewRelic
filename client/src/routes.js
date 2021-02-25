@@ -9,6 +9,7 @@ import GetLeaderBoard from './components/getleaderboard';
 import Globalforestwatch from './components/Globalforestwatch';
 import LeafMap from './components/Map/MyMap';
 import InstaLinks from './components/instaLinks';
+import MessageForm from './components/messageForm';
 
 
 
@@ -19,7 +20,7 @@ class Routes extends Component {
             <Switch>
                 <Route path="/apod" component={APOD} />
                 <Route path="/map" component={LeafMap} />
-                {/* <Route path="/message" component={MessageForm} /> */}
+                <Route path="/message" component={MessageForm} />
                 <Route path="/instaLinks" component={InstaLinks} />
                 <Route path="/Globalforestwatch" component={Globalforestwatch} />
                 {/* <Route path="/solarscope" component={solarscope} /> */}
