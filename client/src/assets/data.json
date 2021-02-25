@@ -1,292 +1,196 @@
 {
-    "venues": [ 
-        {
-            "description": "Amur Leopard",
-            "link":"https://www.globalgiving.org/projects/amur-leopards-conservation/",
-            "animal":"AmurLeopard",
-            "geometry": [
-                51,
-                123
-            ]
-        }, 
-        {
-            "description": "Black-flanked Rock-wallaby",
-            "link":"https://www.wwf.org.au/what-we-do/bushfires",
-            "animal":"BlackFlankedRockWallaby",
-            "geometry": [
-                -33,
-                125
-            ]
-        },
-        {
-            "description": "Black Rhino",
-            "link":"https://www.awf.org/land-protection/climate-change",
-            "animal":"BlackRhino",
-            "geometry": [
-                12,
-                36
-            ]
-        },   
-        {
-            "description": "Whale Shark",
-            "link":"https://www.nwf.org/Our-Work/Wildlife-Conservation",
-            "animal":"WhaleShark",
-            "geometry": [
-                -14,
-                115
-            ]
-        },
-        {
-            "description": "Orangutan",
-            "link":"https://orangutan.org/our-projects/forest-protection/helping-protect-tpnp/",
-            "animal":"Orangutan",            
-            "geometry": [
-                -11,
-                99
-            ]
-        },
-        {
-            "description": "Hawksbill Turtle",
-            "link":"https://www.wilderness.org/key-issues/30-x-30-movement",
-            "animal":"HawksbillTurtle",
-            "geometry": [
-                28,
-                -85
-            ]
-        },
-        {
-            "description": "Red Panda",
-            "link":"https://www.pandasinternational.org/program-areas-2/",
-            "animal":"RedPanda",
-            "geometry": [
-                27,
-                103
-            ]
-        },
-        {
-            "description": "Black Footed Ferret",
-            "link":"https://www.workingforestfund.org/",
-            "animal":"BlackFootedFerret",
-            "geometry": [
-                48,
-                -105
-            ]
-        },
-        {
-            "description": "SeaLions",
-            "link":"https://foe.org/issues/forests/",
-            "animal":"SeaLions",
-            "geometry": [
-                -4.5,
-                -92
-            ]
-        },
-        {
-            "description": "Orangutan",
-            "link":"https://www.ran.org/issue/global-forests/",
-            "animal":"Orangutan",            
-            "geometry": [
-                14,
-                115
-            ]
-        },
+  "venues": [
+    {
+      "description": "Amur Leopard",
+      "link": "https://www.globalgiving.org/projects/amur-leopards-conservation/",
+      "animal": "AmurLeopard",
+      "geometry": [51, 123]
+    },
+    {
+      "description": "Black-flanked Rock-wallaby",
+      "link": "https://www.wwf.org.au/what-we-do/bushfires",
+      "animal": "BlackFlankedRockWallaby",
+      "geometry": [-33, 125]
+    },
+    {
+      "description": "Black Rhino",
+      "link": "https://www.awf.org/land-protection/climate-change",
+      "animal": "BlackRhino",
+      "geometry": [12, 36]
+    },
+    {
+      "description": "Whale Shark",
+      "link": "https://www.nwf.org/Our-Work/Wildlife-Conservation",
+      "animal": "WhaleShark",
+      "geometry": [-14, 115]
+    },
+    {
+      "description": "Orangutan",
+      "link": "https://orangutan.org/our-projects/forest-protection/helping-protect-tpnp/",
+      "animal": "Orangutan",
+      "geometry": [-11, 99]
+    },
+    {
+      "description": "Hawksbill Turtle",
+      "link": "https://www.wilderness.org/key-issues/30-x-30-movement",
+      "animal": "HawksbillTurtle",
+      "geometry": [28, -85]
+    },
+    {
+      "description": "Red Panda",
+      "link": "https://www.pandasinternational.org/program-areas-2/",
+      "animal": "RedPanda",
+      "geometry": [27, 103]
+    },
+    {
+      "description": "Black Footed Ferret",
+      "link": "https://www.workingforestfund.org/",
+      "animal": "BlackFootedFerret",
+      "geometry": [48, -105]
+    },
+    {
+      "description": "SeaLions",
+      "link": "https://foe.org/issues/forests/",
+      "animal": "SeaLions",
+      "geometry": [-4.5, -92]
+    },
+    {
+      "description": "Orangutan",
+      "link": "https://www.ran.org/issue/global-forests/",
+      "animal": "Orangutan",
+      "geometry": [14, 115]
+    },
 
-        {
-            "description": "Cross River Gorilla",
-            "link":"",
-            "animal":"CrossRiverGorilla",
-            "geometry": [
-                12,
-                22                
-            ]
-        },
-        {
-            "description": "EasternCurlew",
-            "link":"",
-            "animal":"EasternCurlew",
-            "geometry": [
-                -20,
-                123
-            ]
-        },
-        {
-            "description": "EasternLowlandGorilla",
-            "link":"",
-            "animal":"EasternLowlandGorilla",
-            "geometry": [
-                12,
-                10
-            ]
-        },
-        {
-            "description": "GouldianFinch",
-            "link":"",
-            "animal":"GouldianFinch",
-            "geometry": [
-                -33,
-                140
-            ]
-        },
-        
-        {
-            "description": "JavanRhino",
-            "link":"",
-            "animal":"JavanRhino",
-            "geometry": [
-                -4,
-                93
-            ]
-        },    
-        
-             
-        
-        {
-            "description": "Porpoise",
-            "link":"",
-            "animal":"Porpoise",
-            "geometry": [
-                35,
-                113
-            ]
-        },
-        {
-            "description": "Quoll",
-            "link":"",
-            "animal":"Quoll",
-            "geometry": [
-                -20,
-                138
-            ]
-        },
-        {
-            "description": "SumatranElephant",
-            "link":"",
-            "animal":"SumatranElephant",            
-            "geometry": [
-                -1,
-                115
-            ]
-        },
-        {
-            "description": "SundaTiger",
-            "link":"",
-            "animal":"SundaTiger",            
-            "geometry": [
-                9,
-                93
-            ]
-        },
-        {
-            "description": "ContinentalTiger",
-            "link":"",
-            "animal":"ContinentalTiger",            
-            "geometry": [
-                25,
-                93
-            ]
-        },
-        {
-            "description": "Vaquita",
-            "link":"",
-            "animal":"Vaquita",
-            "geometry": [
-                35,
-                -110
-            ]
-        },
-        {
-            "description": "African Wild Dog",
-            "link":"",
-            "animal":"AfricanWildDog",
-            "geometry": [
-                -20,
-                25
-            ]
-        },
-        {
-            "description": "AsianElephant",
-            "link":"",
-            "animal":"AsianElephant",            
-            "geometry": [
-                35,
-                90
-            ]
-        },
-        
-        {
-            "description": "BlueWhale",
-            "link":"",
-            "animal":"BlueWhale",
-            "geometry": [
-                -35,
-                -75
-            ]
-        },
+    {
+      "description": "Cross River Gorilla",
+      "link": "",
+      "animal": "CrossRiverGorilla",
+      "geometry": [12, 22]
+    },
+    {
+      "description": "EasternCurlew",
+      "link": "",
+      "animal": "EasternCurlew",
+      "geometry": [-20, 123]
+    },
+    {
+      "description": "EasternLowlandGorilla",
+      "link": "",
+      "animal": "EasternLowlandGorilla",
+      "geometry": [12, 10]
+    },
+    {
+      "description": "GouldianFinch",
+      "link": "",
+      "animal": "GouldianFinch",
+      "geometry": [-33, 140]
+    },
 
-        {
-            "description": "Jane Goodall Institude",
-            "link":"https://secure2.convio.net/jgi/site/Donation2;jsessionid=00000000.app20112a?idb=1136715204&DONATION_LEVEL_ID_SELECTED=1&df_id=2522&mfc_pref=T&2522.donation=form1&NONCE_TOKEN=DF207DDD1FE0E92C7ED10A6D38A7E514&idb=0",
-            "animal":"Bonobo",
-            "geometry": [
-                -4.038333,
-                18
-            ]
-        },
-        {
-            "description": "GreenTurtle",
-            "link":"https://awionline.org/content/what-you-can-do-wildlife",
-            "animal":"GreenTurtle",
-            "geometry": [
-                12,
-                -92
-            ]
-        },
-        {
-            "description": "Endangered Species Foundation",
-            "link":"https://www.endangeredspecies.org.nz/act-now",
-            "animal":"HectorDolphin",
-            "geometry": [
-                -49,
-                177
-            ]
-        },
-        {
-            "description": "IndianElephant",
-            "link":"",
-            "animal":"IndianElephant",            
-            "geometry": [
-                28,
-                75
-            ]
-        },
-        {
-            "description": "Mountain Gorilla",
-            "link":"https://gorillafund.org/what-we-do/daily-protection-3/",
-            "animal":"MountainGorilla",
-            "geometry": [
-                -1,
-                31
-            ]
-        },
-        
-        
-        {
-            "description": "Animal Welfare Institute",
-            "link":"https://awionline.org/content/what-you-can-do-wildlife",
-            "animal":"Whale",
-            "geometry": [
-                -20,
-                -75
-            ]
-        },
-        {
-            "description": "Whale Shark",
-            "link":"",
-            "animal":"WhaleShark",
-            "geometry": [
-                12,
-                -75
-            ]
-        }
-    ]
+    {
+      "description": "JavanRhino",
+      "link": "",
+      "animal": "JavanRhino",
+      "geometry": [-4, 93]
+    },
+
+    {
+      "description": "Porpoise",
+      "link": "",
+      "animal": "Porpoise",
+      "geometry": [35, 113]
+    },
+    {
+      "description": "Quoll",
+      "link": "",
+      "animal": "Quoll",
+      "geometry": [-20, 138]
+    },
+    {
+      "description": "SumatranElephant",
+      "link": "",
+      "animal": "SumatranElephant",
+      "geometry": [-1, 115]
+    },
+    {
+      "description": "SundaTiger",
+      "link": "",
+      "animal": "SundaTiger",
+      "geometry": [9, 93]
+    },
+    {
+      "description": "ContinentalTiger",
+      "link": "",
+      "animal": "ContinentalTiger",
+      "geometry": [25, 93]
+    },
+    {
+      "description": "Vaquita",
+      "link": "",
+      "animal": "Vaquita",
+      "geometry": [35, -110]
+    },
+    {
+      "description": "African Wild Dog",
+      "link": "",
+      "animal": "AfricanWildDog",
+      "geometry": [-20, 25]
+    },
+    {
+      "description": "AsianElephant",
+      "link": "",
+      "animal": "AsianElephant",
+      "geometry": [35, 90]
+    },
+
+    {
+      "description": "BlueWhale",
+      "link": "",
+      "animal": "BlueWhale",
+      "geometry": [-35, -75]
+    },
+
+    {
+      "description": "Jane Goodall Institude",
+      "link": "https://secure2.convio.net/jgi/site/Donation2;jsessionid=00000000.app20112a?idb=1136715204&DONATION_LEVEL_ID_SELECTED=1&df_id=2522&mfc_pref=T&2522.donation=form1&NONCE_TOKEN=DF207DDD1FE0E92C7ED10A6D38A7E514&idb=0",
+      "animal": "Bonobo",
+      "geometry": [-4.038333, 18]
+    },
+    {
+      "description": "GreenTurtle",
+      "link": "https://awionline.org/content/what-you-can-do-wildlife",
+      "animal": "GreenTurtle",
+      "geometry": [12, -92]
+    },
+    {
+      "description": "Endangered Species Foundation",
+      "link": "https://www.endangeredspecies.org.nz/act-now",
+      "animal": "HectorDolphin",
+      "geometry": [-49, 177]
+    },
+    {
+      "description": "IndianElephant",
+      "link": "",
+      "animal": "IndianElephant",
+      "geometry": [28, 75]
+    },
+    {
+      "description": "Mountain Gorilla",
+      "link": "https://gorillafund.org/what-we-do/daily-protection-3/",
+      "animal": "MountainGorilla",
+      "geometry": [-1, 31]
+    },
+
+    {
+      "description": "Whale",
+      "link": "https://awionline.org/content/what-you-can-do-wildlife",
+      "animal": "Whale",
+      "geometry": [-20, -75]
+    },
+    {
+      "description": "Whale Shark",
+      "link": "",
+      "animal": "WhaleShark",
+      "geometry": [12, -75]
+    }
+  ]
 }
