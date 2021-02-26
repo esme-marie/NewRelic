@@ -26,7 +26,7 @@ function ThreeHome() {
       />
        <div>
           <h3>[team name]</h3>
-          <div ref ={ref => (this.mount = ref)}></div>
+          {/* <div ref ={ref => (this.mount = ref)}></div> */}
           <header>
             <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
             <a href='/Quiz' className="top-right" children="Quiz" />
@@ -43,3 +43,4 @@ function ThreeHome() {
 export default ThreeHome;
 // const rootElement = document.getElementById("root");
 // render(<App />, rootElement);
+
