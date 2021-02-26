@@ -44,7 +44,7 @@ function ThreeHome() {
           <Nav className="mr-auto">
             {/* <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-            <NavDropdown id="collasible-nav-dropdown">
+            <NavDropdown id="collasible-nav-dropdown" >
               <NavDropdown.Item href="/Globalforestwatch">Forest Watch</NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">
                 Another action
