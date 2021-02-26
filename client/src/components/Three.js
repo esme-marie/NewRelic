@@ -55,7 +55,6 @@ function ThreeHome() {
       
 
       </div>
-    </div>
   );
 }
 
