@@ -18,7 +18,7 @@ const MyMap = ()=>{
     const zoom = 1.5;
     return (
         <div className="col">
-            <a className="btn btn-dark btn-md text-light" href="/">BACK</a>
+            {/* <a className="btn btn-dark btn-md text-light" href="/">BACK</a> */}
             <MapContainer center={currentLocation} zoom={zoom}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -34,10 +34,6 @@ const MyMap = ()=>{
                     <form action={venue.link}>
                         <button className="map-popup-button" type="submit" formtarget="_blank">{venue.description}</button>
                     </form>
-                        {/* <button href={venue.link}>
-                            {venue.description}
-                        </button> */}
-                    {/* <a className='poup-text' href={venue.link}>{venue.description}</a> */}
                 </Popup>
                 </Marker>
             ))}

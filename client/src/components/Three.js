@@ -55,9 +55,8 @@ function ThreeHome() {
       
 
       </div>
-    
+
   );
 }
 
 export default ThreeHome;
-
