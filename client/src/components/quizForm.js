@@ -112,7 +112,7 @@ class QuizForm extends React.Component {
 				
     								<div className="QuizForm">
     									<label htmlFor="score">Your Score</label>
-    									<div className="form-inputs">
+    									<div className="form-inputs1">
     										<input
     										defaultvalue={this.state.score}
     										onChange={e => this.handleInputScore(e)}

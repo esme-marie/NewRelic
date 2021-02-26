@@ -51,13 +51,26 @@ function ThreeHome() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
               <NavDropdown.Divider />
+              <NavDropdown.Divider />
               <NavDropdown.Item href="/Quiz">Quiz</NavDropdown.Item>
-              <NavDropdown.Divider/>
-              <NavDropdown.Item href="/message">Send Queries</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/instaLinks">Shop Sustainable</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/donate">Donate</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/donate">Take Action</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/instaLinks">
+                Shop 
+                Sustainably
+                </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/message">Get In Touch</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
+              <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
           <button onClick={toggleTheme}>Theme</button>
