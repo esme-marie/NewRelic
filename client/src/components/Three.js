@@ -35,7 +35,7 @@ function ThreeHome() {
           <a href="/apod" className="bottom-left" children="Astronomical Birthday" />
           <a href="/map" className="bottom-center" children="Leaflet Map" />
         </header>
-        </div>
+       </div>
     </div>
   );
 }
