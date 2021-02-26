@@ -118,22 +118,24 @@ class QuizForm extends React.Component {
     										onChange={e => this.handleInputScore(e)}
     										/>
     										{/* <span id="charLimit">(150 characters limit)</span> */}
-    										<span>
+    										{/* <span>
 											<button 
     											id="messageButton" 
     											type="submit"
-    											onClick={e => this.submitScore(e)}
+    											
     											>
     											Submit your score
     										</button>
-											</span>
+											</span> */}
 											
     									</div>
     								</div>
-									<Link to="/Globalforestwatch">
+									<Link to="/">
                                 <button className="submittedButton"
-                                type="submit">
-                                Watch real time World Forest Map and Tree Cover Change Data!
+									type="submit"
+									onClick={e => this.submitScore(e)}
+								>
+                                Submit
                                 </button>
                             </Link>
     								</form>

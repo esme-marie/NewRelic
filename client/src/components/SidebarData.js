@@ -23,7 +23,7 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Shop Sustainabily',
+    title: 'Shop Sustainably',
     path: '/instaLinks',
     icon: <IoIcons.IoMdPeople />,
     cName: 'nav-text'
