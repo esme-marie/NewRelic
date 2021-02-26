@@ -6,6 +6,7 @@ body,
   padding: 0;
   width: 100vw;
   height: 100vh;
+  scroll-padding-top: 70px;
   /* overflow: hidden; */
 }
 
@@ -117,7 +118,6 @@ span.header-left {
   width: 200px;
 }
 .btn-md {
-  bottom: 20px;
   left: 30px;
   color: white;
 }
@@ -291,13 +291,13 @@ h4 {
 
 /* RIGHT COLUMN OF FORM */
 .form-inputs {
-  width: 100%;
+  width: 80%;
   /* border: 3px solid blue; */
 }
 
 .form-inputs1 {
-  width: 100%;
-  padding-left: 110px;
+  width: 80%;
+  padding-left: 300px;
 
   /* border: 3px solid blue; */
 }
@@ -593,19 +593,29 @@ h6 {
 }
 
 .leaflet-container {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: block;
   margin-left: auto;
-  margin-right: auto;
-  /* display: flex; */
-  align-content: center;
   height: 100vh;
-  width: 85vw;
+  width: 79vw;
 }
 
 .instaLinks {
   font-family: sans-serif;
   text-align: center;
+}
+
+.map-popup-button {
+  padding: 0;
+  border: none;
+  background: none;
+  color: salmon;
+  text-decoration: underline;
+  font-size: large;
+}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  border-radius: 50%;
+}
+
+.drop.item {
+  height: 70px;
 }
