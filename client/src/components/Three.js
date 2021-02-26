@@ -29,11 +29,7 @@ function ThreeHome() {
   }
   return (
     <div className="App">
-    {/* <Navbar /> */}
-    <div>
 
-    <div>
-    
       {(theme === 'light') ?
         <ReactGlobe
           height="100vh"
@@ -58,17 +54,6 @@ function ThreeHome() {
       }
       
 
-        {/* <div>
-          <h3>[team name]</h3>
-          <header>
-            <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
-            <a href='/Quiz' className="top-right" children="Quiz" />
-            <a href="/message" className="bottom-center" children="Send queries or nominate your organisation" />
-            <a href="/instaLinks" className="bottom-right" children="Follow Sustainable Insta" />
-            <a href="/map" className="bottom-left" children="Leaflet Map" />
-          </header>
-          </div> */}
-      </div>
       </div>
     </div>
   );
