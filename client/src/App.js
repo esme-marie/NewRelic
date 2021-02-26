@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path="/donate" component={LeafMap} />
+        <Route path="/takeAction" component={LeafMap} />
         <Route path="/instaLinks" component={InstaLinks} />
         <Route path="/Globalforestwatch" component={Globalforestwatch} />
         <Route path="/quiz" component={QuizForm} />

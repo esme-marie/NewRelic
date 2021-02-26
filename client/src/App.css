@@ -628,3 +628,8 @@ h6 {
 .drop.item {
   height: 70px;
 }
+
+.text-position {
+  padding-top: 200px;
+  color: white;
+}
