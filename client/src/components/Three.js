@@ -53,12 +53,8 @@ function ThreeHome() {
         />
       }
       
-<<<<<<< HEAD
-    </div>
-=======
 
       </div>
->>>>>>> fd3c2ae502aad82936f2d6810ddc680e86ac7d88
   );
 }
 
