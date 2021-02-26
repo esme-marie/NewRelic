@@ -1,6 +1,6 @@
 import * as TWEEN from "es6-tween";
 import * as THREE from "three";
-import { Marker } from "react-globe";
+// import { Marker } from "react-globe";
 
 let scene = new THREE.Scene()
       // scene.fog = new THREE.FogExp2(0x000000, 0.00025)
@@ -34,10 +34,10 @@ export default function markerRenderer(marker) {
     color: new THREE.Color(marker.color),
     // city: new THREE.Color(marker.city)
   });
-  // const place = new THREE.({
+  // const place = new THREE.MeshBasicMaterial({
   //   city: new THREE.(marker.city)
   // });
-  // console.log("marker>>", marker);
+  console.log("THREE>>", THREE);
   // marker.setValues(marker.city);
   // add light
   const mesh = new THREE.Mesh(geometry, material);

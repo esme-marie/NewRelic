@@ -4,7 +4,6 @@ import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 import data from '../assets/data.json';
 import 'leaflet/dist/leaflet.css';
 import "../App.css";
-import Image from 'react-bootstrap/Image';
 
 function GetIcon(animal) {
     return L.icon({

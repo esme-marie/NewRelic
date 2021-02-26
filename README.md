@@ -18,7 +18,7 @@
 ### Dependencies
 
 - Run `npm install` in project directory. This will install server-related dependencies such as express.
-- `cd client` and run `npm install`, `npm install newrelic --save`, `npm install leaflet`,`npm install react-leaflet`, `npm react-instagram-embed`, `npm install react-bootstrap bootstrap`. This will install client dependencies React App.
+- `cd client` and run `npm install`, `npm install newrelic --save`, `npm install leaflet`,`npm install react-leaflet`, `npm react-instagram-embed`, `npm install react-bootstrap bootstrap`, `npm install es6-tween`. This will install client dependencies React App.
 - You can test your client app on `http://localhost:3000` by `cd client` and run `npm start`.
 - You can test your API in `http://localhost:5000/` on root level by running `npm start`.
 
