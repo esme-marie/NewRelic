@@ -10,24 +10,25 @@ import Globalforestwatch from "./components/Globalforestwatch";
 import LeafMap from "./components/MyMap";
 import InstaLinks from "./components/instaLinks";
 import MessageForm from "./components/messageForm";
+// import Navbar from './components/Navbar';
 
 class Routes extends Component {
   render() {
     return (
+      <div>
+      {/* <Navbar /> */}
       <Switch>
         <Route path="/apod" component={APOD} />
         <Route path="/donate" component={LeafMap} />
         <Route path="/message" component={MessageForm} />
         <Route path="/instaLinks" component={InstaLinks} />
         <Route path="/Globalforestwatch" component={Globalforestwatch} />
-        {/* <Route path="/solarscope" component={solarscope} /> */}
         <Route path="/quiz" component={QuizForm} />
-        {/* <Route path="/messageQuotes" component={MessageQuotes} /> */}
-        {/* <Route path="/" component={Home} /> */}
         <Route path="/getleaderboard" component={GetLeaderBoard} />
-        <Route path="/" component={ThreeHome} />
+        <Route exact path="/" component={ThreeHome} />
         <Route path="/home" component={ThreeHome} />
       </Switch>
+      </div>
     );
   }
 }

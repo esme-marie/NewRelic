@@ -6,6 +6,7 @@ body,
   padding: 0;
   width: 100vw;
   height: 100vh;
+  scroll-padding-top: 70px;
   /* overflow: hidden; */
 }
 
@@ -620,4 +621,8 @@ h6 {
 .leaflet-marker-icon,
 .leaflet-marker-shadow {
   border-radius: 50%;
+}
+
+.drop.item {
+  height: 70px;
 }
