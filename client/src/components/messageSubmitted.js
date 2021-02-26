@@ -15,7 +15,7 @@ export default class MessageSubmitted extends React.Component {
                 
                 </div>
                     <div id="messageSubmitted">
-                            <h2></h2>
+                            
                             <h3>Thank you on behalf of the trees</h3>
                             <br/>
                             <p>Your message is on its way to Victrees!</p>

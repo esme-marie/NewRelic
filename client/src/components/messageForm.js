@@ -182,7 +182,7 @@ class MessageForm extends Component {
                                 <label htmlFor="user name">Name</label>
     								    <input
                                             name="message"
-                                            type="textarea"
+                                            
                                             placeholder="Type your name here..."
     										defaultvalue={this.state.name}
     										type="text"
@@ -192,7 +192,7 @@ class MessageForm extends Component {
                                 <label htmlFor="user name">Email</label>
     								    <input
                                             name="message"
-                                            type="textarea"
+                                            
                                             placeholder="type your email so we can get back to you..."
     										defaultvalue={this.state.email}
     										type="text"
@@ -202,7 +202,7 @@ class MessageForm extends Component {
                                 <label htmlFor="user name">Organisation Name</label>
     								    <input
                                             name="message"
-                                            type="textarea"
+                                            
                                             placeholder="type your organisation name here..."
     										defaultvalue={this.state.org}
     										type="text"
@@ -211,7 +211,6 @@ class MessageForm extends Component {
                                 <label htmlFor="user name">Organisation URL</label>
     								    <input
                                             name="message"
-                                            type="textarea"
                                             placeholder="type your organisation Url here..."
     										defaultvalue={this.state.url}
     										type="text"
