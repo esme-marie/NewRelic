@@ -483,10 +483,12 @@ p {
   background: black
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
   position: absolute;
+  margin-left: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+
   display: block;
   z-index: 9;
 }
@@ -593,9 +595,16 @@ h6 {
 }
 
 .leaflet-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  align-content: center;
   height: 100vh;
-  width: 79vw;
+  width: 85vw;
 }
 
 .instaLinks {
