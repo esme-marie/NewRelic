@@ -37,7 +37,7 @@ export default function markerRenderer(marker) {
   // const place = new THREE.MeshBasicMaterial({
   //   city: new THREE.(marker.city)
   // });
-  console.log("THREE>>", THREE);
+  // console.log("THREE>>", THREE);
   // marker.setValues(marker.city);
   // add light
   const mesh = new THREE.Mesh(geometry, material);
@@ -119,18 +119,15 @@ export default function markerRenderer(marker) {
     const intersects = raycaster.intersectObjects( scene.children );
     
     for(let i = 0; i < intersects.length; i ++ ) {
-        intersects[i].object.material.color.set( 0xff0000 );
-        window.location.href = '/map';
+        intersects[i].object.material.color.set( "https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg" );
+        // window.location.href = '/map';
     }
     renderer.render( scene, camera );
     }
 
-    // function onDocumentMouseDown(event) {
-    
-    // }
     window.addEventListener( 'click', onMouseMove, false )
     // earth.addEventListener('mousedown', onDocumentMouseDown, false);
-    window.addEventListener( 'click', onMouseMove, true);
+    // window.addEventListener( 'click', onMouseMove, true);
 
     animate();
   });
