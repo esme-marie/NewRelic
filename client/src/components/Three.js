@@ -28,6 +28,7 @@ function ThreeHome() {
   }
   return (
     <div className="App">
+
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home">
           {/* <Logo
@@ -95,29 +96,23 @@ function ThreeHome() {
         />
       }
 
-        {/* <div>
-          <a
-            href="/Globalforestwatch"
-            className="top-left"
-            children="Explore real time data with Global Forest Watch"
-          />
-          <a href="/Quiz" className="top-right" children="Quiz" />
-          <a
-            href="/message"
-            className="bottom-center"
-            children="Send queries or nominate your organisation"
-          />
-          <a
-            href="/instaLinks"
-            className="bottom-right"
-            children="Follow Sustainable Insta"
-          />
-          <a href="/donate" className="bottom-left" children="Donate" />
-        </div> */}
-
+        <div>
+          <h3>[team name]</h3>
+          {/* <div ref ={ref => (this.mount = ref)}></div> */}
+          <header>
+            <a href="/Globalforestwatch" className="top-left" children="Explore real time data with Global Forest Watch" />
+            <a href='/Quiz' className="top-right" children="Quiz" />
+            <a href="/message" className="bottom-center" children="Send queries or nominate your organisation" />
+            <a href="/instaLinks" className="bottom-right" children="Follow Sustainable Insta" />
+            {/* <a href="/apod" className="bottom-left" children="Astronomical Birthday" /> */}
+            <a href="/map" className="bottom-left" children="Leaflet Map" />
+          </header>
+          </div>
       </div>
+
     </div>
   );
 }
 
 export default ThreeHome;
+

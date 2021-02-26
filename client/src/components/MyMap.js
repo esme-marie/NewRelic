@@ -5,6 +5,7 @@ import data from '../assets/data.json';
 import 'leaflet/dist/leaflet.css';
 import "../App.css";
 
+
 function GetIcon(animal) {
     return L.icon({
         iconUrl: "./animals/"+animal+".png", 
