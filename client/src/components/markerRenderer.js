@@ -34,10 +34,10 @@ export default function markerRenderer(marker) {
     color: new THREE.Color(marker.color),
     // city: new THREE.Color(marker.city)
   });
-  // const place = new THREE.({
+  // const place = new THREE.MeshBasicMaterial({
   //   city: new THREE.(marker.city)
   // });
-  // console.log("marker>>", marker);
+  console.log("THREE>>", THREE);
   // marker.setValues(marker.city);
   // add light
   const mesh = new THREE.Mesh(geometry, material);
