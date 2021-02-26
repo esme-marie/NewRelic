@@ -155,15 +155,11 @@ class MessageForm extends Component {
                 <div id="messageForm">
                     <h2>Contact us</h2>
                     <div>
-                        {/* <form onSubmit={this.submitMessage}>  */}
-                        {/* <form> */}
-                            {/* <form onSubmit={this.submitMessage}>  */}
                             <h2>Contact us</h2>
                             <h4>Interested to know more about deforestration in your region?
                             Can't find the organisation of interest? </h4>
                             <h4>Send us your queries in the form below for more info or nominate your organisation
                             </h4>
-                            {/* <h2>Current Planet: {value}</h2> */}
                             <div className="form-inputs1">
                             <label htmlFor="options">Pick a region of interest(Or you can opt to select All)</label>
                             <select id="options" value={value} onChange={e => this.onChange(e)}>
