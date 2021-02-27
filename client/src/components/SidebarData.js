@@ -1,7 +1,9 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+import * as GiIcons from 'react-icons/gi';
+import * as BiIcons from 'react-icons/bi';
+import * as TiIcons from 'react-icons/ti';
+import * as FiIcons from 'react-icons/fi';
 
 export const SidebarData = [
   {
@@ -13,77 +15,34 @@ export const SidebarData = [
   {
     title: 'Forest Watch',
     path: '/Globalforestwatch',
-    icon: <IoIcons.IoIosPaper />,
+    // icon: <IoIcons.IoIosPaper />,
+    icon: <GiIcons.GiForest />,
     cName: 'nav-text'
   },
   {
     title: 'Take Action',
     path: '/takeAction',
-    icon: <FaIcons.FaCartPlus />,
+    icon: <BiIcons.BiDonateHeart />,
     cName: 'nav-text'
   },
   {
     title: 'Shop Sustainably',
     path: '/instaLinks',
-    icon: <IoIcons.IoMdPeople />,
+    icon: <TiIcons.TiShoppingCart />,
     cName: 'nav-text'
   },
   {
     title: 'Quiz',
     path: '/quiz',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <TiIcons.TiPencil />,
     cName: 'nav-text'
   },
   {
-    title: 'Message',
+    title: 'Contact Us',
     path: '/message',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FiIcons.FiMail />,
     cName: 'nav-text'
   }
   
 ];
-
-// import React from 'react';
-// import * as FaIcons from 'react-icons/fa';
-// import * as AiIcons from 'react-icons/ai';
-// import * as IoIcons from 'react-icons/io';
-
-// export const SidebarData = [
-//   {
-//     title: 'Home',
-//     path: '/',
-//     icon: <AiIcons.AiFillHome />,
-//     cName: 'nav-text'
-//   },
-//   {
-//     title: 'Reports',
-//     path: '/reports',
-//     icon: <IoIcons.IoIosPaper />,
-//     cName: 'nav-text'
-//   },
-//   {
-//     title: 'Products',
-//     path: '/products',
-//     icon: <FaIcons.FaCartPlus />,
-//     cName: 'nav-text'
-//   },
-//   // {
-//   //   title: 'Team',
-//   //   path: '/team',
-//   //   icon: <IoIcons.IoMdPeople />,
-//   //   cName: 'nav-text'
-//   // },
-//   // {
-//   //   title: 'Messages',
-//   //   path: '/messages',
-//   //   icon: <FaIcons.FaEnvelopeOpenText />,
-//   //   cName: 'nav-text'
-//   // },
-//   // {
-//   //   title: 'Support',
-//   //   path: '/support',
-//   //   icon: <IoIcons.IoMdHelpCircle />,
-//   //   cName: 'nav-text'
-//   // }
-// ];
 
