@@ -239,7 +239,7 @@ h4 {
   width: 100vh;
   height: 8vh;
   display: flex;
-  width: 80%;
+  width: 89%;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
@@ -269,16 +269,17 @@ h4 {
   /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 1rem;
   justify-content: center;
-  padding: 20px 0 20px 0;
+  padding: 15px 0 15px 0;
 }
 
 .form-group {
   display: flex;
-  width: 100%;
+  width: 80%;
   justify-content: center;
   align-items: center;
+  margin-left: 140px;
 }
 
 /* LEFT COLUMN OF FORM */
@@ -292,28 +293,30 @@ h4 {
 
 /* RIGHT COLUMN OF FORM */
 .form-inputs {
-  width: 80%;
+  width: 60%;
   /* border: 3px solid blue; */
 }
 
 .form-inputs1 {
   width: 80%;
-  padding-left: 300px;
+  padding-left: 358px;
+  padding-top: 50px;
 
   /* border: 3px solid blue; */
 }
 
 input,
 textarea {
-  height: 2rem;
+  height: 3rem;
   width: 100%;
   border: none;
   border-radius: 5px;
+  margin-bottom: 15px;
   /* font-family: "Goldman", cursive; */
 }
 
 textarea {
-  height: 10rem;
+  height: 8rem;
 }
 
 /* ========================================= */
@@ -334,10 +337,10 @@ textarea {
 }
 
 #charLimit {
-  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  /* font-family: "Raleway", "Helvetica", "Arial", sans-serif; */
   margin: 0;
   padding: 0;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
 }
 
@@ -398,6 +401,7 @@ h2 {
   color: white;
   font-size: 60px;
   padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 h3 {
