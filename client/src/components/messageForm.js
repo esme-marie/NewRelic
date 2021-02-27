@@ -153,7 +153,6 @@ class MessageForm extends Component {
         ) : (
             <div>
                 <div id="messageForm">
-                    <h2>Contact us</h2>
                     <div>
                             <h2>Contact us</h2>
                             <h4>Interested to know more about deforestration in your region?

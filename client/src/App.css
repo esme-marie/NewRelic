@@ -219,7 +219,7 @@ a.bottom-center {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   position: absolute;
   background: black
@@ -232,6 +232,7 @@ a.bottom-center {
 
 h4 {
   color: white;
+  font-size: 18px;
 }
 
 #options {
@@ -242,16 +243,16 @@ h4 {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
   /* padding-left: 20px; */
 }
 
 #messageForm h2 {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   text-align: center;
   font-size: 40px;
   /* font-family: 'Bebas Neue', cursive; */
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
 }
 
 #messageForm form {
@@ -265,12 +266,12 @@ h4 {
 }
 
 #messageForm h4 {
-  font-family: "Major Mono Display", "Arial", sans-serif;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
   line-height: 1.5;
   font-size: 0.9rem;
   justify-content: center;
-  padding: 2rem 0 2rem 0;
+  padding: 20px 0 20px 0;
 }
 
 .form-group {
@@ -282,7 +283,7 @@ h4 {
 
 /* LEFT COLUMN OF FORM */
 #messageForm label {
-  font-family: "Major Mono Display", "Arial", sans-serif;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   color: white;
   /* border: 3px solid red; */
   /* width: 30%; */
@@ -308,7 +309,7 @@ textarea {
   width: 100%;
   border: none;
   border-radius: 5px;
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
 }
 
 textarea {
@@ -328,8 +329,8 @@ textarea {
 }
 #message p {
   line-height: 1.4rem;
-  font-family: "Major Mono Display", "Arial", sans-serif;
-  font-size: 0.9rem;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
+  /* font-size: 0.9rem; */
 }
 
 #charLimit {
@@ -343,7 +344,7 @@ textarea {
 #messageButton {
   width: 100%;
   margin-top: 2rem;
-  font-family: "Major Mono Display";
+  /* font-family: "Major Mono Display"; */
   background-color: white;
   border-radius: 5px;
 }
@@ -401,7 +402,7 @@ h2 {
 
 h3 {
   color: white;
-  font-family: "Major Mono Display";
+  /* font-family: "Major Mono Display"; */
 }
 
 p {
@@ -409,7 +410,7 @@ p {
   color: white;
   text-align: center;
   align-items: center;
-  font-family: "Major Mono Display", "Arial", sans-serif;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
 }
 
 .container-submit {
@@ -426,7 +427,7 @@ p {
 .submittedButton {
   width: 100%;
   margin-top: 2rem;
-  font-family: "Major Mono Display";
+  /* font-family: "Major Mono Display"; */
   background-color: white;
   border-radius: 5px;
   display: flex;
@@ -461,7 +462,7 @@ p {
 
 .apodButton {
   margin-top: 2rem;
-  font-family: "Major Mono Display";
+  /* font-family: "Major Mono Display"; */
   /* background-color: white; */
   border-radius: 10px;
   display: flex;
@@ -516,6 +517,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .answer-section {
@@ -551,7 +553,7 @@ p {
   width: 20%;
   height: 50px;
   margin-top: 3rem;
-  font-family: "Major Mono Display";
+  /* font-family: "Major Mono Display"; */
   background-color: rgb(100, 184, 190);
   border-radius: 5px;
   margin-left: 40%;
@@ -579,14 +581,14 @@ h5 {
 .quiz {
   line-height: 1.5;
   color: white;
-  font-family: "Major Mono Display", "Arial", sans-serif;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
 }
 
 .QuizForm {
   line-height: 1.5;
   color: white;
-  font-family: "Major Mono Display", "Arial", sans-serif;
+  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
 }
 
@@ -630,6 +632,11 @@ h6 {
 }
 
 .text-position {
-  padding-top: 200px;
+  padding-top: 30px;
   color: white;
+}
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
 }

@@ -29,11 +29,11 @@ function ThreeHome() {
   }
   return (
     <div className="App text-position">
-      <h3 className="text-center mt-5">Can you find an orangutan?</h3>
+      <h3 className="text-center">Can you find an orangutan?</h3>
       <h4 className="text-center">Click on globe</h4>
-      {(theme === 'light') ?
+      {/* {(theme === 'light') ? */}
         <ReactGlobe
-          height="100vh"
+          height="85vh"
           // globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
           markers={markers}
           width="100vw"
@@ -41,18 +41,18 @@ function ThreeHome() {
           onMouseOverMarker={(marker, markerObject, event) =>
             console.log(marker, markerObject, event)
           }
-        /> :
-        <ReactGlobe
-          height="100vh"
-          //globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
-          markers={markers}
-          width="100vw"
-          options={options}
-          onMouseOverMarker={(marker, markerObject, event) =>
-            console.log(marker, markerObject, event)
-          }
+        // /> :
+        // <ReactGlobe
+        //   height="80vh"
+        //   //globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
+        //   markers={markers}
+        //   width="100vw"
+        //   options={options}
+        //   onMouseOverMarker={(marker, markerObject, event) =>
+        //     console.log(marker, markerObject, event)
+        //   }
         />
-      }
+      {/* } */}
       
 
       </div>

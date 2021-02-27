@@ -126,7 +126,7 @@ import QuizForm from '../components/quizForm';
 
 	const awarenessVideo = {
 		awarenessVideo:
-		'<iframe width="560" height="315" src="https://www.youtube.com/embed/Ic-J6hcSKa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+		'<iframe width="560" height="315" style="margin-top: 30px;" src="https://www.youtube.com/embed/Ic-J6hcSKa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 		
 	  };
 
