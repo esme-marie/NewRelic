@@ -3,10 +3,11 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ThreeHome from "./components/Three";
 import QuizForm from "./components/quiz";
-import Globalforestwatch from "./components/globalforestwatch";
+import Globalforestwatch from "./components/Globalforestwatch";
 import LeafMap from "./components/MyMap";
 import Shop from "./components/shop";
 import MessageForm from "./components/messageForm";
+
 
 function App() {
   return (
