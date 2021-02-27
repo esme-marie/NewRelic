@@ -1,4 +1,4 @@
-# Infinity
+# VicTrees
 
 ## Project Description
 
@@ -21,23 +21,6 @@
 - `cd client` and run `npm install`, `npm install newrelic --save`, `npm install leaflet`,`npm install react-leaflet`, `npm react-instagram-embed`, `npm install react-bootstrap bootstrap`, `npm install es6-tween`,`npm install react-icons`. This will install client dependencies React App.
 - You can test your client app on `http://localhost:3000` by `cd client` and run `npm start`.
 - You can test your API in `http://localhost:5000/` on root level by running `npm start`.
-
-### Database Prep
-
-- Access the MySQL interface in your terminal by running `mysql -u root -p`
-- Create a new database called `infinity`: create database `infinity`;
-- Add a `.env` file to the main folder of this repository containing the MySQL authentication information for MySQL user. For example:
-
-  ```bash
-  DB_HOST=localhost
-  DB_USER=root
-  DB_NAME=infinity
-  DB_PASS=YOURPASSWORD
-  ```
-
-  - Replace `YOURPASSWORD` with your actual password
-
-Run `npm run migrate` in the main folder of this repository, in a new terminal window. This will create tables of the infinity database with some dummy data.
 
 ## Resources
 
