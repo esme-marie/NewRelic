@@ -143,10 +143,12 @@ import QuizForm from '../components/quizForm';
 	return (
 		<div className='quiz'>
 			{showScore ? (
-				<div className='score-section'>
+				<div id="messageSubmitted">
 					You scored {score} out of {questions.length}
-					<QuizForm />
 					{/* <GetLeaderBoard/> */}
+					{/* <div className="text-center"> */}
+						<a className="btn btn-secondary btn-lg text-light" href="/">Home</a>
+					{/* </div> */}
 					
 				</div>
 			) : (

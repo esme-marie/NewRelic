@@ -109,7 +109,6 @@ class MessageForm extends Component {
             input: "",
             submitted: true
         })
-        alert("Message received!");
         console.log(this.state.value);
         fetch("/users/message", {
             method: "POST",
@@ -124,7 +123,6 @@ class MessageForm extends Component {
             .then(res => {
                 res.json();
                 // this.componentDidMount();
-                alert("Submitted");
             })
             // .then(data => {
             //     //console.log("data with id", data);
@@ -155,12 +153,12 @@ class MessageForm extends Component {
                     <div id="messageForm">
                         <div>
                             <h2>Contact us</h2>
-                            <h4>Interested to know more about deforestration in your region?
+                            <h4>Interested to know more about deforestation in your region?
                             Can't find the organisation of interest? </h4>
-                            <h4>Send us your queries in the form below for more info or nominate your organisation
+                            <h4>Send us your queries in the form below
                             </h4>
                             <div className="form-inputs1">
-                                <label htmlFor="options">Pick a region of interest(Or you can opt to select All)</label>
+                                <label htmlFor="options">Pick a region of interest</label>
                                 <select id="options" value={value} onChange={e => this.onChange(e)}>
                                     {options.map((planet) => {
                                         return <option key={planet.id} value={planet.id}>{planet.name}</option>
