@@ -20,8 +20,8 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Donate',
-    path: '/donate',
+    title: 'Take Action',
+    path: '/takeAction',
     icon: <BiIcons.BiDonateHeart />,
     cName: 'nav-text'
   },

@@ -28,8 +28,9 @@ function ThreeHome() {
     }
   }
   return (
-    <div className="App">
-
+    <div className="App text-position">
+      <h3 className="text-center mt-5">Can you find an orangutan?</h3>
+      <h4 className="text-center">Click on globe</h4>
       {(theme === 'light') ?
         <ReactGlobe
           height="100vh"
