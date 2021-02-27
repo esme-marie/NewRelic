@@ -10,14 +10,14 @@ class InstaLinks extends React.Component {
     // <h1>Mini Sustainable Market, Follow sustainable instashops! </h1>
     return (
         // <CardColumns style={{display: 'flex', flexDirection: 'row'}}>
-        <Container>
+        <Container fluid="md">
           <Row>
             <Col>
               <Card className="p-3">
                 <InstagramEmbed
                   url="https://www.instagram.com/p/CH_e13Gn7L4/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  Width={300}
+                  Width={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -32,7 +32,7 @@ class InstaLinks extends React.Component {
               <InstagramEmbed
                 url="https://www.instagram.com/p/B_4uPl8BU4-/?utm_source=ig_web_copy_link"
                 clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                maxWidth={300}
+                maxWidth={150}
                 hideCaption={true}
                 containerTagName="div"
                 protocol=""
@@ -59,7 +59,7 @@ class InstaLinks extends React.Component {
                 <InstagramEmbed
                   url="https://www.instagram.com/p/CIzjMXGJQ6r/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={300}
+                  maxWidth={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -74,7 +74,34 @@ class InstaLinks extends React.Component {
                 <InstagramEmbed
                   url="https://www.instagram.com/p/CKWLZS_JM6-/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={500}
+                  maxWidth={150}
+                  hideCaption={true}
+                  containerTagName="div"
+                  protocol=""
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </Card>
+              <Card bg="primary" text="white" className="text-center p-3">
+                <blockquote className="blockquote mb-0 card-body">
+                  <p>
+                    The least I can do is speak out for those who cannot speak for themselves.
+                  </p>
+                  <footer className="blockquote-footer">
+                    <small className="text-white">
+                      Primatologist, <cite title="Source Title">Jane Goodall</cite>
+                    </small>
+                  </footer>
+                </blockquote>
+              </Card>
+              <Card className="p-3">
+                <InstagramEmbed
+                  url="https://www.instagram.com/p/CEvno6eJ8hJ/?utm_source=ig_web_copy_link"
+                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                  maxWidth={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -87,8 +114,8 @@ class InstaLinks extends React.Component {
               </Card>
             </Col>
 
-            <Col>  
-              <Card bg="primary" text="white" className="text-center p-3">
+            {/* <Col>   */}
+              {/* <Card bg="primary" text="white" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                   <p>
                     Are we happy to suppose at our children may never see an elephant except in a picture book?
@@ -104,7 +131,82 @@ class InstaLinks extends React.Component {
                 <InstagramEmbed
                   url="https://www.instagram.com/p/CLmM46-FN9L/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={500}
+                  maxWidth={150}
+                  hideCaption={true}
+                  containerTagName="div"
+                  protocol=""
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </Card>
+              <Card>
+                <InstagramEmbed
+                  url=" https://www.instagram.com/p/CHMwOUBJRg7/?utm_source=ig_web_copy_link"
+                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                  maxWidth={150}
+                  hideCaption={true}
+                  containerTagName="div"
+                  protocol=""
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </Card>
+              <Card>
+                <InstagramEmbed
+                  url="https://www.instagram.com/p/B-ZPdvzJj0K/?utm_source=ig_web_copy_link"
+                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                  maxWidth={150}
+                  hideCaption={true}
+                  containerTagName="div"
+                  protocol=""
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </Card>
+              <Card>
+                <InstagramEmbed
+                  url="https://www.instagram.com/p/B5-WR66pKVN/?utm_source=ig_web_copy_link"
+                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                  maxWidth={150}
+                  hideCaption={true}
+                  containerTagName="div"
+                  protocol=""
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </Card> */}
+            {/* </Col> */}
+
+            <Col>
+            <Card bg="primary" text="white" className="text-center p-3">
+                <blockquote className="blockquote mb-0 card-body">
+                  <p>
+                    Are we happy to suppose at our children may never see an elephant except in a picture book?
+                  </p>
+                  <footer className="blockquote-footer">
+                    <small className="text-white">
+                      World's most loved naturalist, <cite title="Source Title">David Attenborough</cite>
+                    </small>
+                  </footer>
+                </blockquote>
+              </Card>
+              <Card className="p-3">
+                <InstagramEmbed
+                  url="https://www.instagram.com/p/CLmM46-FN9L/?utm_source=ig_web_copy_link"
+                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
+                  maxWidth={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -160,14 +262,11 @@ class InstaLinks extends React.Component {
                   onFailure={() => {}}
                 />
               </Card>
-            </Col>
-
-            <Col>
-              <Card className="p-3">
+              {/* <Card className="p-3">
                 <InstagramEmbed
                   url="https://www.instagram.com/p/B9-jzwMg7-C/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  Width={300}
+                  Width={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -177,27 +276,12 @@ class InstaLinks extends React.Component {
                   onAfterRender={() => {}}
                   onFailure={() => {}}
                 />
-              </Card>
-              <Card className="p-3">
-                <InstagramEmbed
-                  url="https://www.instagram.com/p/CEvno6eJ8hJ/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={500}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card>
+              </Card> */}
               <Card className="p-3">
                 <InstagramEmbed
                   url="https://www.instagram.com/p/BvyM3vGpPsb/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={500}
+                  maxWidth={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
@@ -207,24 +291,12 @@ class InstaLinks extends React.Component {
                   onAfterRender={() => {}}
                   onFailure={() => {}}
                 />
-              </Card>
-              <Card bg="primary" text="white" className="text-center p-3">
-                <blockquote className="blockquote mb-0 card-body">
-                  <p>
-                    The least I can do is speak out for those who cannot speak for themselves.
-                  </p>
-                  <footer className="blockquote-footer">
-                    <small className="text-white">
-                      Primatologist, <cite title="Source Title">Jane Goodall</cite>
-                    </small>
-                  </footer>
-                </blockquote>
               </Card>
               <Card>
                 <InstagramEmbed
                   url="https://www.instagram.com/p/CInNr-mJ3P1/?utm_source=ig_web_copy_link"
                   clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={500}
+                  maxWidth={150}
                   hideCaption={true}
                   containerTagName="div"
                   protocol=""
