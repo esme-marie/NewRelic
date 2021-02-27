@@ -1,15 +1,12 @@
 import React from "react";
 import InstagramEmbed from "react-instagram-embed";
-// import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 class Shop extends React.Component {
   render() {
-    // <h1>Mini Sustainable Market, Follow sustainable instashops! </h1>
     return (
-        // <CardColumns style={{display: 'flex', flexDirection: 'row'}}>
         <Container fluid="md">
           <Row>
             <Col>
@@ -112,83 +109,8 @@ class Shop extends React.Component {
                   onFailure={() => {}}
                 />
               </Card>
-            </Col>
-
-            {/* <Col>   */}
-              {/* <Card bg="primary" text="white" className="text-center p-3">
-                <blockquote className="blockquote mb-0 card-body">
-                  <p>
-                    Are we happy to suppose at our children may never see an elephant except in a picture book?
-                  </p>
-                  <footer className="blockquote-footer">
-                    <small className="text-white">
-                      World's most loved naturalist, <cite title="Source Title">David Attenborough</cite>
-                    </small>
-                  </footer>
-                </blockquote>
-              </Card>
-              <Card className="p-3">
-                <InstagramEmbed
-                  url="https://www.instagram.com/p/CLmM46-FN9L/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={150}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card>
-              <Card>
-                <InstagramEmbed
-                  url=" https://www.instagram.com/p/CHMwOUBJRg7/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={150}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card>
-              <Card>
-                <InstagramEmbed
-                  url="https://www.instagram.com/p/B-ZPdvzJj0K/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={150}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card>
-              <Card>
-                <InstagramEmbed
-                  url="https://www.instagram.com/p/B5-WR66pKVN/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  maxWidth={150}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card> */}
-            {/* </Col> */}
-
+          </Col>
+          
             <Col>
             <Card bg="primary" text="white" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
@@ -262,21 +184,6 @@ class Shop extends React.Component {
                   onFailure={() => {}}
                 />
               </Card>
-              {/* <Card className="p-3">
-                <InstagramEmbed
-                  url="https://www.instagram.com/p/B9-jzwMg7-C/?utm_source=ig_web_copy_link"
-                  clientAccessToken="897186484376035|9a105f16fb35c9aff3fccf8286532814"
-                  Width={150}
-                  hideCaption={true}
-                  containerTagName="div"
-                  protocol=""
-                  injectScript
-                  onLoading={() => {}}
-                  onSuccess={() => {}}
-                  onAfterRender={() => {}}
-                  onFailure={() => {}}
-                />
-              </Card> */}
               <Card className="p-3">
                 <InstagramEmbed
                   url="https://www.instagram.com/p/BvyM3vGpPsb/?utm_source=ig_web_copy_link"
