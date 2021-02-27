@@ -117,7 +117,6 @@ class MessageForm extends Component {
     }
 
     render() {
-        const { value, options } = this.state;
         return this.state.submitted ? (
             <MessageSubmitted />
         ) : (
@@ -125,59 +124,44 @@ class MessageForm extends Component {
                     <div id="messageForm">
                         <div>
                             <h2>Contact us</h2>
-                            <h4>Interested to know more about deforestation in your region?
-                            Can't find the organisation of interest? </h4>
-                            <h4>Send us your queries in the form below
-                            </h4>
-                            <div className="form-inputs1">
-                                <label htmlFor="options">Pick a region of interest</label>
-                                <select id="options" value={value} onChange={e => this.onChange(e)}>
-                                    {options.map((planet) => {
-                                        return <option key={planet.id} value={planet.id}>{planet.name}</option>
-                                    })}
-                                </select>
-                            </div>
-                            <br />
-                            <br />
+                            <h4>Keen to add an organisation of interest on the globe?</h4>
+                            <h4>Send us your queries in the form below</h4>    
                             <div className="form-group">
                                 <div className="form-inputs">
-                                    <label htmlFor="user name">Name</label>
-                                    <input
+                                    <label>Name</label>
+                                    <input 
+                                        required
                                         name="message"
-                                        placeholder="Type your name here..."
                                         defaultvalue={this.state.name}
                                         type="text"
                                         onChange={e => this.handleName(e)}
                                     />
-                                    <label htmlFor="user name">Email</label>
+                                    <label>Email</label>
                                     <input
-                                        name="message"
-                                        placeholder="Type your email so we can get back to you..."
+                                        required
+                                        name="message"                                    
                                         defaultvalue={this.state.email}
                                         type="text"
                                         onChange={e => this.handleEmail(e)}
                                     />
-                                    <label htmlFor="user name">Organisation Name</label>
+                                    <label>Organisation Name</label>
                                     <input
-                                        name="message"
-                                        placeholder="Type your organisation name here..."
+                                        name="message"                                      
                                         defaultvalue={this.state.org}
                                         type="text"
                                         onChange={e => this.handleOrg(e)}
                                     />
-                                    <label htmlFor="user name">Organisation URL</label>
+                                    <label>Organisation URL</label>
                                     <input
-                                        name="message"
-                                        placeholder="Type your organisation Url here..."
+                                        name="message"                                       
                                         defaultvalue={this.state.url}
                                         type="text"
                                         onChange={e => this.handleUrl(e)}
                                     />
-                                    <label htmlFor="user name">Your Message or Query</label>
+                                    <label>Your Message or Query</label>
                                     <textarea
                                         name="message"
-                                        type="textarea"
-                                        placeholder="Type your message..."
+                                        type="textarea"                                      
                                         defaultValue={this.state.input}
                                         onChange={e => this.handleInput(e)}
                                         maxLength="150"
