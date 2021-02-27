@@ -7,6 +7,12 @@ import * as FiIcons from 'react-icons/fi';
 
 export const SidebarData = [
   {
+    // title: 'VicTrees',
+    path: '/',
+    icon: "VicTrees",
+    cName: 'nav-text'
+  },
+  {
     title: 'Home',
     path: '/',
     icon: <AiIcons.AiFillHome />,
@@ -27,7 +33,7 @@ export const SidebarData = [
   },
   {
     title: 'Shop Sustainably',
-    path: '/instaLinks',
+    path: '/shop',
     icon: <TiIcons.TiShoppingCart />,
     cName: 'nav-text'
   },

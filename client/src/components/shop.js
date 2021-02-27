@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-class InstaLinks extends React.Component {
+class Shop extends React.Component {
   render() {
     // <h1>Mini Sustainable Market, Follow sustainable instashops! </h1>
     return (
@@ -314,4 +314,4 @@ class InstaLinks extends React.Component {
   }
 }
 
-export default InstaLinks;
+export default Shop;

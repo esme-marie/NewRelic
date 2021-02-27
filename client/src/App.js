@@ -6,7 +6,7 @@ import ThreeHome from "./components/Three";
 import QuizForm from "./components/quiz";
 import Globalforestwatch from "./components/Globalforestwatch";
 import LeafMap from "./components/MyMap";
-import InstaLinks from "./components/instaLinks";
+import Shop from "./components/shop";
 import MessageForm from "./components/messageForm";
 
 // import Navbar from './components/Navbar';
@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Switch>
         <Route path="/takeAction" component={LeafMap} />
-        <Route path="/instaLinks" component={InstaLinks} />
+        <Route path="/shop" component={Shop} />
         <Route path="/Globalforestwatch" component={Globalforestwatch} />
         <Route path="/quiz" component={QuizForm} />
         <Route path="/message" component={MessageForm} />
