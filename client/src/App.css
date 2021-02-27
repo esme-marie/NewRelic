@@ -219,7 +219,7 @@ a.bottom-center {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   position: absolute;
   background: black
@@ -243,16 +243,16 @@ h4 {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
   /* padding-left: 20px; */
 }
 
 #messageForm h2 {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   text-align: center;
   font-size: 40px;
   /* font-family: 'Bebas Neue', cursive; */
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
 }
 
 #messageForm form {
@@ -271,7 +271,7 @@ h4 {
   line-height: 1.5;
   font-size: 0.9rem;
   justify-content: center;
-  padding: 2rem 0 2rem 0;
+  padding: 20px 0 20px 0;
 }
 
 .form-group {
@@ -309,7 +309,7 @@ textarea {
   width: 100%;
   border: none;
   border-radius: 5px;
-  font-family: "Goldman", cursive;
+  /* font-family: "Goldman", cursive; */
 }
 
 textarea {
@@ -330,7 +330,7 @@ textarea {
 #message p {
   line-height: 1.4rem;
   /* font-family: "Major Mono Display", "Arial", sans-serif; */
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 
 #charLimit {
@@ -517,6 +517,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .answer-section {
@@ -631,7 +632,7 @@ h6 {
 }
 
 .text-position {
-  padding-top: 200px;
+  padding-top: 30px;
   color: white;
 }
 
