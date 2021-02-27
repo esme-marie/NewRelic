@@ -18,7 +18,7 @@ con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
   
-  let sql = "CREATE TABLE `form` (`id` INT NOT NULL AUTO_INCREMENT,`name` varchar(50),`email` varchar(50),    `org_name` varchar(50),`org_url` varchar(50),      `message` varchar(500),PRIMARY KEY (`id`)); INSERT INTO `form`(`name`,`email`,`org_name`,`org_url`,`message`) VALUES('Jane Doe','janedoe@email.com','org_name','www.org_name.com','You are awesome, I want to be part of this!');"  
+  let sql = "DROP database IF exists `victrees`;  CREATE database `victrees`;  USE `victrees`;DROP table IF exists `form`;CREATE TABLE `form` (`id` INT NOT NULL AUTO_INCREMENT,`name` varchar(50),`email` varchar(50),    `org_name` varchar(50),`org_url` varchar(50),      `message` varchar(500),PRIMARY KEY (`id`)); INSERT INTO `form`(`name`,`email`,`org_name`,`org_url`,`message`) VALUES('Jane Doe','janedoe@email.com','org_name','www.org_name.com','You are awesome, I want to be part of this!');"  
 
   con.query(sql, function (err, result) {
     if (err) throw err;
