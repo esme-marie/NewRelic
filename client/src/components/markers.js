@@ -29,7 +29,7 @@ const markers = [
   },
   {
     id: 5,
-    city: "Orangutan",
+    city: "Orangutan 🦧 you found me!",
     color: "magenta",
     coordinates: [5.8391337,118.1158919],
     value: 80,
@@ -62,13 +62,13 @@ const markers = [
     coordinates: [-0.6288151,-90.3638752],
     value: 54,
   },
-  {
-    id: 10,
-    city: "Orangutan",
-    color: "magenta",
-    coordinates: [-0.6487843,113.46813615],
-    value: 54,
-  },
+  // {
+  //   id: 10,
+  //   city: "Orangutan",
+  //   color: "magenta",
+  //   coordinates: [-0.6487843,113.46813615],
+  //   value: 54,
+  // },
   {
     id: 11,
     city: "Cross River Gorilla",

@@ -19,7 +19,7 @@ export const SidebarData = [
   },
   {
     title: 'Forest Watch',
-    path: '/Globalforestwatch',
+    path: '/globalforestwatch',
     icon: <GiIcons.GiForest />,
     cName: 'nav-text'
   },
