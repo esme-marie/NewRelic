@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MessageSubmitted from "../components/messageSubmitted";
-// import MessageQuotes from "../components/messageQuotes";
+
 class MessageForm extends Component {
     constructor() {
         super()
@@ -17,8 +17,6 @@ class MessageForm extends Component {
             message: [],
             value: "",
             options: [
-
-
                 { id: 1, name: "Western Europe" },
                 { id: 2, name: "Central and Eastern Europe" },
                 { id: 3, name: "Asia Pacific" },
@@ -26,20 +24,17 @@ class MessageForm extends Component {
                 { id: 5, name: "Mediterannean&Middle East" },
                 { id: 6, name: "Americas" },
                 { id: 7, name: "Australia" },
-                { id: 8, name: "Other Oceania(New Zealand,Melanesia,Micronesia,Polynesia" },
+                { id: 8, name: "Other Oceania(New Zealand, Melanesia, Micronesia, Polynesia)" },
                 { id: 9, name: "All" },
             ],
             submitted: false
         }
-        // this.handleSelectChange = this.handleSelectChange.bind(this);
         this.handleInput = this.handleInput.bind(this)
         this.submitMessage = this.submitMessage.bind(this);
 
     };
 
     onChange(e) {
-        // const { value } = e.target;
-        // alert(value);
         e.preventDefault();
         this.setState({
             value: e.target.value
@@ -75,8 +70,6 @@ class MessageForm extends Component {
         });
     };
 
-
-
     handleName(e) {
         e.preventDefault();
         this.setState({
@@ -84,15 +77,11 @@ class MessageForm extends Component {
         });
     };
 
-
     componentDidMount() {
         fetch("/users")
             .then(res => res.json())
             .then(data => {
                 this.setState({
-                    // name: "",
-                    // message: "",
-                    // planets: ""
                     message: data,
                     planets: data
                 });
@@ -102,7 +91,6 @@ class MessageForm extends Component {
             });
     }
 
-    // submit message
     submitMessage() {
         this.setState({
             value: "",
@@ -120,29 +108,13 @@ class MessageForm extends Component {
                 planet_id: this.state.value
             })
         })
-            .then(res => {
-                res.json();
-                // this.componentDidMount();
-            })
-            // .then(data => {
-            //     //console.log("data with id", data);
-            //     const updatedMessage = [
-            //       {
-            //         id: data.insertID,
-            //         message: this.state.input,
-            //         planet_id: this.state.value
-            //       }
-            //     ];
-            //     this.setstate({ message: [...this.state.message, ...updatedMessage] });
-            //     console.log(this.state.message);
-            //   })
-            .catch(error => {
-                console.log(error);
-            })
+        .then(res => {
+            res.json();
+        })
+        .catch(error => {
+            console.log(error);
+        })
     }
-
-
-
 
     render() {
         const { value, options } = this.state;
@@ -167,35 +139,27 @@ class MessageForm extends Component {
                             </div>
                             <br />
                             <br />
-
                             <div className="form-group">
-                                {/* <label htmlFor="your message">Your message</label> */}
                                 <div className="form-inputs">
-
                                     <label htmlFor="user name">Name</label>
                                     <input
                                         name="message"
-
                                         placeholder="Type your name here..."
                                         defaultvalue={this.state.name}
                                         type="text"
                                         onChange={e => this.handleName(e)}
                                     />
-
                                     <label htmlFor="user name">Email</label>
                                     <input
                                         name="message"
-
                                         placeholder="Type your email so we can get back to you..."
                                         defaultvalue={this.state.email}
                                         type="text"
                                         onChange={e => this.handleEmail(e)}
                                     />
-
                                     <label htmlFor="user name">Organisation Name</label>
                                     <input
                                         name="message"
-
                                         placeholder="Type your organisation name here..."
                                         defaultvalue={this.state.org}
                                         type="text"
@@ -211,7 +175,6 @@ class MessageForm extends Component {
                                     />
                                     <label htmlFor="user name">Your Message or Query</label>
                                     <textarea
-                                        // value={this.state.message}
                                         name="message"
                                         type="textarea"
                                         placeholder="Type your message..."
@@ -219,7 +182,6 @@ class MessageForm extends Component {
                                         onChange={e => this.handleInput(e)}
                                         maxLength="150"
                                     />
-
                                     <span id="charLimit">(150 characters limit)</span>
                                     <button
                                         className="btn btn-lg btn-block"
@@ -232,9 +194,7 @@ class MessageForm extends Component {
                                 </div>
                             </div>
                         </div>
-                        {/* </form>  */}
                     </div>
-
                 </div>
             )
     }

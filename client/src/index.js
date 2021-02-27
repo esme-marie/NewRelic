@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import App from "./App";
-// import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(

@@ -7,7 +7,6 @@ body,
   width: 100vw;
   height: 100vh;
   scroll-padding-top: 70px;
-  /* overflow: hidden; */
 }
 
 canvas {
@@ -15,26 +14,17 @@ canvas {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  /* left: 0;
-    right: 0; */
 }
 
 body {
-  /* background: #171717; */
   background: black
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
-  /* background: radial-gradient(at 50% 100%, #873740 0%, #272730 40%, #070710 100%); */
 }
 
 .bg {
   position: absolute;
-  /* width: 100%;
-    height: 100%;
-    background-size: cover;
-    position: fixed !important; */
   background: black
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
-  /* background: radial-gradient(at 50% 100%, #873740 0%, #272730 40%, #171720 80%, #070710 100%); */
 }
 
 .loading {
@@ -65,12 +55,10 @@ h1 {
   top: 120px;
   left: 50%;
   font-family: "Lexend Mega", sans-serif;
-  /* font-family: 'Josefin Sans', sans-serif; */
   font-weight: 800;
   font-size: 10em;
   transform: translate3d(-50%, 0, 0);
   margin: 0;
-  /* color: radial-gradient(at 50% 100%, #873740 0%, #272730 40%, #171720 80%, #070710 100%); */
   color: peru;
   line-height: 0.8em;
   letter-spacing: -15px;
@@ -189,19 +177,6 @@ a.bottom-center {
 /* =============== HOME PAGE =============== */
 /* ========================================= */
 
-.homeContainer {
-  text-align: center;
-  /* background-color: rgb(35, 147, 182); */
-  /* background-image: url('/images/spacebackground.jpg'); */
-  position: absolute;
-  background-size: cover;
-  z-index: -2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .particles {
   position: fixed !important;
   left: 0;
@@ -224,10 +199,6 @@ a.bottom-center {
   position: absolute;
   background: black
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
-  /* background-color: rgb(209, 73, 96); */
-  /* background-image: url('dark-starfield.jpg'); */
-  /* background-image: url('mercury.png') no-repeat fixed; */
-  /* background-size: 40% cover; */
 }
 
 h4 {
@@ -243,16 +214,11 @@ h4 {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  /* font-family: "Goldman", cursive; */
-  /* padding-left: 20px; */
 }
 
 #messageForm h2 {
-  /* padding-top: 30px; */
   text-align: center;
   font-size: 40px;
-  /* font-family: 'Bebas Neue', cursive; */
-  /* font-family: "Goldman", cursive; */
 }
 
 #messageForm form {
@@ -266,7 +232,6 @@ h4 {
 }
 
 #messageForm h4 {
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
   line-height: 1.5;
   font-size: 1rem;
@@ -284,25 +249,18 @@ h4 {
 
 /* LEFT COLUMN OF FORM */
 #messageForm label {
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   color: white;
-  /* border: 3px solid red; */
-  /* width: 30%; */
-  /* text-align: center; */
 }
 
 /* RIGHT COLUMN OF FORM */
 .form-inputs {
   width: 60%;
-  /* border: 3px solid blue; */
 }
 
 .form-inputs1 {
   width: 80%;
   padding-left: 358px;
   padding-top: 50px;
-
-  /* border: 3px solid blue; */
 }
 
 input,
@@ -312,7 +270,6 @@ textarea {
   border: none;
   border-radius: 5px;
   margin-bottom: 15px;
-  /* font-family: "Goldman", cursive; */
 }
 
 textarea {
@@ -332,12 +289,9 @@ textarea {
 }
 #message p {
   line-height: 1.4rem;
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
-  /* font-size: 0.9rem; */
 }
 
 #charLimit {
-  /* font-family: "Raleway", "Helvetica", "Arial", sans-serif; */
   margin: 0;
   padding: 0;
   font-size: 15px;
@@ -347,7 +301,6 @@ textarea {
 #messageButton {
   width: 100%;
   margin-top: 2rem;
-  /* font-family: "Major Mono Display"; */
   background-color: white;
   border-radius: 5px;
 }
@@ -406,7 +359,6 @@ h2 {
 
 h3 {
   color: white;
-  /* font-family: "Major Mono Display"; */
 }
 
 p {
@@ -414,52 +366,8 @@ p {
   color: white;
   text-align: center;
   align-items: center;
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
 }
 
-
-/* ========================================= */
-/* ================= APOD ================== */
-/* ========================================= */
-
-.datepicker {
-  margin-top: 150px;
-  /* padding: 70px; */
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  /* height: 2rem; */
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.apodButton {
-  margin-top: 2rem;
-  /* font-family: "Major Mono Display"; */
-  /* background-color: white; */
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.background-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0;
-}
 
 .stars {
   background: black
@@ -472,26 +380,16 @@ p {
   left: 0;
   right: 0;
   display: block;
-  /* z-index: -1; */
 }
 
-.apod-image {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.image-description p {
-  padding-top: 30px;
-  font-size: 20px;
-  font-family: Arial;
-}
+
 
 /* ========================================= */
 /* ================= QUIZ ================== */
 /* ========================================= */
-
-.question-section {
+ 
+.question-section{
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 30px;
@@ -508,11 +406,6 @@ p {
   text-align: center;
 }
 
-
-/* ========================================= */
-/* ================= QUOTES ================== */
-/* ========================================= */
-
 #text p {
   padding-top: 30px;
   font-family: "Courier New";
@@ -520,52 +413,21 @@ p {
   color: black;
 }
 
-#author p {
-  font-family: "Courier New";
-  font-size: 30px;
-  color: black;
-}
 
-.quotesButton {
-  width: 20%;
-  height: 50px;
-  margin-top: 3rem;
-  /* font-family: "Major Mono Display"; */
-  background-color: rgb(100, 184, 190);
-  border-radius: 5px;
-  margin-left: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 h5 {
   color: white;
 }
 
-#quote-box {
-  width: 800px;
-  margin: 0 auto;
-  padding: 1px 15px;
-  font-weight: 550;
-  font-size: 22px;
-  background: linear-gradient(35deg, #ccffff, #ffcccc);
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 0px 0px 2px 1px gray;
-}
 .quiz {
   line-height: 1.5;
   color: white;
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
 }
 
 .QuizForm {
   line-height: 1.5;
   color: white;
-  /* font-family: "Major Mono Display", "Arial", sans-serif; */
   text-align: center;
 }
 

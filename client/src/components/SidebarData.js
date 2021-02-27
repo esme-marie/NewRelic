@@ -7,7 +7,6 @@ import * as FiIcons from 'react-icons/fi';
 
 export const SidebarData = [
   {
-    // title: 'VicTrees',
     path: '/',
     icon: "VicTrees",
     cName: 'nav-text'
@@ -21,7 +20,6 @@ export const SidebarData = [
   {
     title: 'Forest Watch',
     path: '/Globalforestwatch',
-    // icon: <IoIcons.IoIosPaper />,
     icon: <GiIcons.GiForest />,
     cName: 'nav-text'
   },
@@ -48,7 +46,6 @@ export const SidebarData = [
     path: '/message',
     icon: <FiIcons.FiMail />,
     cName: 'nav-text'
-  }
-  
+  }  
 ];
 

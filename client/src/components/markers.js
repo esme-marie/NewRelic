@@ -217,4 +217,5 @@ const markers = [
     value: 54,
   },
 ];
+
 export default markers;

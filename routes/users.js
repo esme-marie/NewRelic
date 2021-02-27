@@ -5,8 +5,6 @@ const bodyParser = require("body-parser");
 
 router.use(bodyParser.json());
 
-
-/* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send('API working');
 });
@@ -27,7 +25,6 @@ router.get("/planets/:id", (req, res, next) => {
       .catch(err => res.status(500).send(err));
 });
 
-/* GET all messages by id*/
 router.get("/message/", (req, res, next) => {
   db(`SELECT * FROM message ORDER BY id ASC;`)
       .then(results => res.send(results.data))
@@ -42,7 +39,6 @@ router.get("/message/:id", (req, res, next) => {
 
 });
 
-/* POST message */
 router.post("/message", function(req, res, next) {
   let newPlanets = req.body.planet_id;
   let newMessage = req.body.message;
@@ -56,7 +52,6 @@ router.post("/message", function(req, res, next) {
       console.log("Successfully added");
     })
     .catch(err => res.status(500).send(err));
-    // console.log("Please try again");
   });
 
   router.get("/login/", (req, res, next) => {
@@ -65,7 +60,6 @@ router.post("/message", function(req, res, next) {
         .catch(res => res.status(500).send(err));
   
   });
-
 
   router.get("/user/", (req, res, next) => {
     db(`SELECT * FROM user ORDER BY id ASC;`)
@@ -86,25 +80,12 @@ router.post("/message", function(req, res, next) {
     let newUserName = req.body.userName;
     let newScore = req.body.score;
     console.log("printing", newUserName, newScore,);
-    // let sql=db(`INSERT INTO quiz(user_id, score) VALUES (${JSON.stringify(newUserId)}, ${JSON.stringify(newScore)});`)
-    // .then(results => {
-    //   res.send(results);
-    //   console.log("Successfully added");
-    // })
-    // console.log(sql);
     db(`INSERT INTO quiz(user_id, name, score) VALUES (1, ${JSON.stringify(newUserName)}, ${JSON.stringify(newScore)});`)
       .then(results => {
         res.send(results);
         console.log("Successfully added");
       })
       .catch(err => res.status(500).send(err));
-      // console.log("Please try again");
     });
-
-//WHERE id= parseInt(req.params.id)
-
-
-
-//
 
 module.exports = router;
