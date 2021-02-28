@@ -138,8 +138,8 @@ import React, { useState } from 'react';
 					
 				</div>
 			) : (
-				<>
-				<h2>Get started</h2>
+				<div className="App text-position">
+      				<h3 className="text-center">Get started</h3>
 					<div className='question-section'>
 						<div className='question-count'>
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
@@ -150,10 +150,9 @@ import React, { useState } from 'react';
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
 						<button btn btn-lg onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 					))}
-					<Iframe iframe={awarenessVideo["awarenessVideo"]} allow="autoplay" />,
+						<Iframe iframe={awarenessVideo["awarenessVideo"]} allow="autoplay" />,
 					</div>
-					
-				</>
+				</div>
 			)}
 		</div>
 	);
