@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MessageSubmitted from "../components/messageSubmitted";
+import Form from 'react-bootstrap/Form';
 
 class MessageForm extends Component {
     constructor() {
@@ -126,7 +127,7 @@ class MessageForm extends Component {
                             <h2>Contact us</h2>
                             <h4>Keen to add an organisation of interest on the globe?</h4>
                             <h4>Send us your queries in the form below</h4> 
-                            
+
                             <div className="form-group">
                                 <div className="form-inputs">
                                     <label>Name</label>
