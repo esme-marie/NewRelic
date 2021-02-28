@@ -16,8 +16,10 @@ function Iframe(props) {
 function Globalforestwatch() {
   return (
     <div className="stars">
-      <Iframe iframe={demos["forest"]} allow="autoplay" />,
-      <h6>* Credit to Global Forest Watch</h6>
+      <div className="iframe-container">
+        <Iframe iframe={demos["forest"]} allow="autoplay" />
+      </div>
+      <h6 className="text-center">Credit to Global Forest Watch</h6>
     </div>
   );
 }
