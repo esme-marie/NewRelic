@@ -115,7 +115,6 @@ import React, { useState } from 'react';
 	const awarenessVideo = {
 		awarenessVideo:
 		'<iframe width="560" height="315" style="margin-top: 30px;" src="https://www.youtube.com/embed/Ic-J6hcSKa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-		
 	  };
 
 	function Iframe(props) {
@@ -150,7 +149,9 @@ import React, { useState } from 'react';
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
 						<button btn btn-lg onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 					))}
-						<Iframe iframe={awarenessVideo["awarenessVideo"]} allow="autoplay" />,
+					</div>
+					<div className="iframe-container">
+						<Iframe iframe={awarenessVideo["awarenessVideo"]} allow="autoplay" />
 					</div>
 				</div>
 			)}
