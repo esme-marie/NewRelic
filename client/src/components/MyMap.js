@@ -17,7 +17,7 @@ const MyMap = ()=>{
     const zoom = 1.5;
     return (
         <div className="col">
-            <MapContainer center={currentLocation} zoom={zoom}>
+            <MapContainer center={currentLocation} zoom={zoom} zoomControl={false}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
