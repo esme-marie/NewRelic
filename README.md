@@ -26,6 +26,8 @@
 
 In the MySQL CLI, type `create database victrees;` to create a database in MySQL.
 
+Run `node model/database.js` in your **TERMINAL**, in the **root** folder of your project (not your MySQL CLI! Open a new terminal window for this). This will create a table called 'form' in your database.
+
 Run `npm run migrate` in the main folder of this repository, in a new terminal window. This will create tables of the victrees database with some dummy data.
 
 ## Submission
