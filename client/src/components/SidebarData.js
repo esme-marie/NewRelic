@@ -7,6 +7,11 @@ import * as FiIcons from 'react-icons/fi';
 
 export const SidebarData = [
   {
+    path: '/',
+    icon: "VicTrees",
+    cName: 'nav-text'
+  },
+  {
     title: 'Home',
     path: '/',
     icon: <AiIcons.AiFillHome />,
@@ -15,19 +20,18 @@ export const SidebarData = [
   {
     title: 'Forest Watch',
     path: '/Globalforestwatch',
-    // icon: <IoIcons.IoIosPaper />,
     icon: <GiIcons.GiForest />,
     cName: 'nav-text'
   },
   {
-    title: 'Donate',
-    path: '/donate',
+    title: 'Take Action',
+    path: '/takeAction',
     icon: <BiIcons.BiDonateHeart />,
     cName: 'nav-text'
   },
   {
     title: 'Shop Sustainably',
-    path: '/instaLinks',
+    path: '/shop',
     icon: <TiIcons.TiShoppingCart />,
     cName: 'nav-text'
   },
@@ -42,7 +46,6 @@ export const SidebarData = [
     path: '/message',
     icon: <FiIcons.FiMail />,
     cName: 'nav-text'
-  }
-  
+  }  
 ];
 

@@ -5,7 +5,6 @@ import data from '../assets/data.json';
 import 'leaflet/dist/leaflet.css';
 import "../App.css";
 
-
 function GetIcon(animal) {
     return L.icon({
         iconUrl: "./animals/"+animal+".png", 
@@ -18,8 +17,7 @@ const MyMap = ()=>{
     const zoom = 1.5;
     return (
         <div className="col">
-            {/* <a className="btn btn-dark btn-md text-light" href="/">BACK</a> */}
-            <MapContainer center={currentLocation} zoom={zoom}>
+            <MapContainer center={currentLocation} zoom={zoom} zoomControl={false}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
@@ -38,7 +36,6 @@ const MyMap = ()=>{
                 </Marker>
             ))}
             </MapContainer>
-            
         </div>
     )
 }

@@ -1,56 +1,39 @@
-# Infinity
+# VicTrees
 
-## Project Description
-
-## MVP
-
-### Current Features
-
-### Future Feature
-
-## Database Schema and API
-
-## API Routes Plan
-
-| URI | HTTP Method | Description |
-| --- | ----------- | ----------- |
-
-### Dependencies
+## Dependencies
 
 - Run `npm install` in project directory. This will install server-related dependencies such as express.
-- `cd client` and run `npm install`, `npm install newrelic --save`, `npm install leaflet`,`npm install react-leaflet`, `npm react-instagram-embed`, `npm install react-bootstrap bootstrap`, `npm install es6-tween`. This will install client dependencies React App.
+- `cd client` and run `npm install`. This will install client dependencies React App.
 - You can test your client app on `http://localhost:3000` by `cd client` and run `npm start`.
-- You can test your API in `http://localhost:5000/` on root level by running `npm start`.
 
 ### Database Prep
 
 - Access the MySQL interface in your terminal by running `mysql -u root -p`
-- Create a new database called `infinity`: create database `infinity`;
+- Create a new database called `victrees`: create database `victrees`;
 - Add a `.env` file to the main folder of this repository containing the MySQL authentication information for MySQL user. For example:
 
   ```bash
   DB_HOST=localhost
   DB_USER=root
-  DB_NAME=infinity
+  DB_NAME=victrees
   DB_PASS=YOURPASSWORD
   ```
 
   - Replace `YOURPASSWORD` with your actual password
+    Go to MySQL CLI and type the password that you have created.
 
-Run `npm run migrate` in the main folder of this repository, in a new terminal window. This will create tables of the infinity database with some dummy data.
+(If unable to do so, run the following in the MySQL CLI: `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD';` (replace `YOUR_PASSWORD` with a new password))
 
-## Resources
+In the MySQL CLI, type `create database victrees;` to create a database in MySQL.
 
-- [MySQL Cheat Sheet](http://www.mysqltutorial.org/mysql-cheat-sheet.aspx)
-- [MySQL](https://dev.mysql.com/doc/refman/8.0/en/database-use.html)
-- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Three.js Documentation](https://threejs.org/)
+Run `node model/database.js` in your **TERMINAL**, in the **root** folder of your project (not your MySQL CLI! Open a new terminal window for this). This will create a table called 'form' in your database.
+
+Run `npm run migrate` in the main folder of this repository, in a new terminal window. This will create tables of the victrees database with some dummy data.
 
 ## Submission
 
-By Victress Malaysians 👩🏻‍💻✨
+By VicTress Coders 👩🏻‍💻✨
 
-## What we built
+[Science and Observation](https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1)
 
-[Placeholder App] is built for global users who have access to the internet. Users have varying awareness levels about deforestation and illegal logging. The product is a platform. THAT Unlike traditional donation and volunteering pages. Our product creates awareness that translates to actionable user actions to help Mother Earth.
+[New Year, New Resources](https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-56ff)

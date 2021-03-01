@@ -1,16 +1,14 @@
 import * as TWEEN from "es6-tween";
 import * as THREE from "three";
-// import { Marker } from "react-globe";
 
 let scene = new THREE.Scene()
-      // scene.fog = new THREE.FogExp2(0x000000, 0.00025)
       let camera = new THREE.PerspectiveCamera(
           35, 
           window.innerWidth / window.innerHeight, 
           0.1, 
           4000
           );
-          camera.position.z = 25 //-1000
+          camera.position.z = 25
       
       let renderer = new THREE.WebGLRenderer({
           antialias: true
@@ -24,7 +22,6 @@ function random(scaleFactor) {
     ? scaleFactor * Math.random()
     : -scaleFactor * Math.random();
 }
-// const MARKER_COLOR = "#FF0000";
 const MARKER_COMPANION_COLOR = "#fff9e6";
 
 export default function markerRenderer(marker) {
@@ -32,19 +29,12 @@ export default function markerRenderer(marker) {
   const geometry = new THREE.SphereGeometry(size, 10, 10);
   const material = new THREE.MeshBasicMaterial({
     color: new THREE.Color(marker.color),
-    // city: new THREE.Color(marker.city)
   });
-  // const place = new THREE.MeshBasicMaterial({
-  //   city: new THREE.(marker.city)
-  // });
-  // console.log("THREE>>", THREE);
-  // marker.setValues(marker.city);
-  // add light
+
   const mesh = new THREE.Mesh(geometry, material);
   const light = new THREE.PointLight(marker.color, 1, 0, 0);
   mesh.children = [];
   mesh.add(light);
-  // add companion markers based on size
   const companions = [];
   for (let i = 0; i < 10; i++) {
     const companionGeometry = new THREE.SphereGeometry(
@@ -78,7 +68,6 @@ export default function markerRenderer(marker) {
         .delay(i * 200);
       tween
         .on("update", () => {
-          // console.log("tween>>",tween);
           const [x, y, z] = from.position;
           const companionMaterial = companion.material;
           const intensityChange = random(0.05);
@@ -99,36 +88,17 @@ export default function markerRenderer(marker) {
     }
     let raycaster = new THREE.Raycaster();
     let mouse = new THREE.Vector2();
-
     function onMouseMove( event ) {
-
-    // calculate mouse position in normalized device coordinates
-    // (-1 to +1) for both components
-    
     mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
     mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-    
-    // }
-    
-    // function render() {
-    
-    // update the picking ray with the camera and mouse position
     raycaster.setFromCamera( mouse, camera );
-    
-    // calculate objects intersecting the picking ray
     const intersects = raycaster.intersectObjects( scene.children );
-    
     for(let i = 0; i < intersects.length; i ++ ) {
         intersects[i].object.material.color.set( "https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg" );
-        // window.location.href = '/map';
     }
     renderer.render( scene, camera );
     }
-
     window.addEventListener( 'click', onMouseMove, false )
-    // earth.addEventListener('mousedown', onDocumentMouseDown, false);
-    // window.addEventListener( 'click', onMouseMove, true);
-
     animate();
   });
   return mesh;
